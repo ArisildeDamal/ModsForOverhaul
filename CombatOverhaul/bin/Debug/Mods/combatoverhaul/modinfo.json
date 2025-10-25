@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "name": "Combat Overhaul",
+  "modid": "combatoverhaul",
+  "version": "0.10.9",
+
+  "description": "",
+  "authors": [ "Maltiez" ],
+
+  "dependencies": {
+    "overhaullib": "1.12.7"
+  },
+
+  "side" : "universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

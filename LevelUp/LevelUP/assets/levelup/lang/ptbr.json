@@ -1,0 +1,30 @@
+{
+    "player_levelup": "Você atingiu o nível {0} em {1}",
+    "player_sublevelup": "Você atingiu proficiência {0} com {1} em {2}",
+
+    "levels_tab": "Níveis",
+
+    "axe": "Machado",
+    "pickaxe": "Picareta",
+    "shovel": "Pá",
+    "bow": "Arco",
+    "spear": "Lança",
+    "knife": "Faca",
+    "hammer": "Martelo",
+    "smithing": "Ferraria",
+    "sword": "Espada",
+    "shield": "Escudo",
+    "hand": "Punhos",
+
+    "leatherarmor": "Armudura de Couro",
+    "chainarmor": "Armadura de Malha",
+    "brigandinearmor": "Armadura Brigandine",
+    "platearmor": "Armadura de Placas",
+    "scalearmor": "Armadura de Escamas",
+
+    "hunter": "Caçador",
+    "farming": "Fazendeiro",
+    "cooking": "Cozinheiro",
+    "panning": "Peneirar",
+    "vitality": "Vitalidade"
+}

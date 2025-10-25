@@ -1,0 +1,85 @@
+{
+    "levelupdocs-hunter": "Sobre o Caçador",
+    "levelupdocs-hunter-title": "Níveis: Caçador",
+    "levelupdocs-hunter-text": "<strong>Caçador</strong><br><i>Caçador: A arte da caça</i><br><br>Como um caçador você pode obter experiência matando qualquer tipo de entidade.<br><br><strong>Melhorias</strong><br>Os níveis de caçador vão te garantir mais dano em todos as fontes de dano que você causar em quaisquer entidades.",
+
+    "levelupdocs-axe": "Sobre o Machado",
+    "levelupdocs-axe-title": "Níveis: Machado",
+    "levelupdocs-axe-text": "<strong>Machado</strong><br><i>Machado: Lenhadores astutos</i><br><br>Utilizar seu machado para derrubar arvores e quebrar madeiras irá garantir experiência com machados.<br><br><strong>Melhorias</strong><br>Os níveis de machado vão lhe garantir mais dano em todos as fontes de dano usando machados, irá aumentar sua velocidade de quebra ao utilizar machados.",
+
+    "levelupdocs-bow": "Sobre o Arco",
+    "levelupdocs-bow-title": "Níveis: Arco",
+    "levelupdocs-bow-text": "<strong>Arco</strong><br><i>Arco: Flecheiros</i><br><br>Matar entidades com seu arco vai garantir experiência com arcos.<br><br><strong>Melhorias</strong><br>Os níveis de arcos vão lhe garantir mais dano em todos as fontes de dano usando arcos, irá reduzir a chance de perder a flecha ao utilizar e vai garantir maior precisão.",
+
+    "levelupdocs-pickaxe": "Sobre a Picareta",
+    "levelupdocs-pickaxe-title": "Níveis: Picareta",
+    "levelupdocs-pickaxe-text": "<strong>Picareta</strong><br><i>Picareta: Amantes da Pedra</i><br><br>Minerar com sua picareta vai lhe garantir experiência, minerar minerios irá dar ainda mais experiência, usar como arma também vai lhe garantir um pouco de experiência.<br><br><strong>Melhorias</strong><br>Níveis de picareta vão aumentar a velocidade de quebra dos blocos, aumenta a chance de cair mais minérios e por fim um aumento de dano ao utilizar picaretas.",
+
+    "levelupdocs-shovel": "Sobre a Pá",
+    "levelupdocs-shovel-title": "Níveis: Pá",
+    "levelupdocs-shovel-text": "<strong>Pá</strong><br><i>Pá: Amantes do Solo</i><br><br>Escavar com sua pá vai lhe garantir experiência, usar como arma também vai lhe garantir um pouco de experiência.<br><br><strong>Melhorias</strong><br>Níveis de pá vão aumentar a velocidade de quebra dos blocos e um aumento de dano ao utilizar pás.",
+
+    "levelupdocs-knife": "Sobre a Faca",
+    "levelupdocs-knife-title": "Níveis: Faca",
+    "levelupdocs-knife-text": "<strong>Faca</strong><br><i>Faca: Esfoladores Profissionais</i><br><br>Esfolar um animal ou usar como arma irá garatir experiência com facas, você pode receber experiência também cortando gramas e folhas com facas.<br><br><strong>Melhorias</strong><br>Níveis de facas vão aumentar a velocidade de quebra das folhas e gramas e um aumento de dano ao utilizar facas, ao esfolar qualquer animal o saque também será aumentado.",
+
+    "levelupdocs-spear": "Sobre a Lança",
+    "levelupdocs-spear-title": "Níveis: Lança",
+    "levelupdocs-spear-text": "<strong>Lança</strong><br><i>Lança: Afiados</i><br><br>Arremeçar ou atingir criaturas com lanças irá garantir experiência.<br><br><strong>Melhorias</strong><br>Níveis de lanças vão aumentar todo o dano causado por lanças, também irá garantir uma maior precisão ao lançar uma lança.",
+
+    "levelupdocs-hammer": "Sobre o Martelo",
+    "levelupdocs-hammer-title": "Níveis: Martelo",
+    "levelupdocs-hammer-text": "<strong>Martelo</strong><br><i>Martelo: Ferreiros</i><br><br>Utilizar seu martelo como arma irá garantir experiência, mas também usa-lo para forjar equipamento lhe concederá experiência.<br><br><strong>Melhorias</strong><br>Níveis de martelo irá garantir maior retorno ao forjar itens, chance de obter a pepita ao dividir a barra na bigorna, também concederá mais dano aos martelos.",
+
+    "levelupdocs-sword": "Sobre a Espada",
+    "levelupdocs-sword-title": "Níveis: Espada",
+    "levelupdocs-sword-text": "<strong>Espada</strong><br><i>Espada: Guerreiros</i><br><br>Utilizando espadas em combates vão lhe garantir experiência.<br><br><strong>Melhorias</strong><br>Níveis de espadas vão lhe garantir maior dano a suas espadas.",
+
+    "levelupdocs-shield": "Sobre o Escudo",
+    "levelupdocs-shield-title": "Níveis: Escudo",
+    "levelupdocs-shield-text": "<strong>Escudo</strong><br><i>Escudo: Guardas</i><br><br>Utilizar seu escudo irá garantir experiência com escudos.<br><br><strong>Melhorias</strong><br>Níveis de escudos vão garantir maior defesa ao utilizar escudo.",
+
+    "levelupdocs-hand": "Sobre a Mão",
+    "levelupdocs-hand-title": "Níveis: Mão",
+    "levelupdocs-hand-text": "<strong>Mão</strong><br><i>Mão: Monjes</i><br><br>Usar suas proprias mãos para eliminar criaturas vai lhe garantir experiência.<br><br><strong>Melhorias</strong><br>Níveis de mão vão aumentar o dano causado com seus punhos.",
+
+    "levelupdocs-farming": "Sobre o Fazendeiro",
+    "levelupdocs-farming-title": "Níveis: Fazendeiro",
+    "levelupdocs-farming-text": "<strong>Fazendeiro</strong><br><i>Fazendeiro: Pacientes</i><br><br>Colher plantações nos seus ultimos estágios vão lhe garantir experiência, como também arar o solo<br><br><strong>Melhorias</strong><br>Níveis de fazendeiro vão lhe providenciar mais colheitas nas plantações e aumento na coleta silvestre.",
+
+    "levelupdocs-cooking": "Sobre o Cozinheiro",
+    "levelupdocs-cooking-title": "Níveis: Cozinheiro",
+    "levelupdocs-cooking-text": "<strong>Cozinheiro</strong><br><i>Cozinheiro: Chefes</i><br><br>Cozinhar em uma fogueira vai lhe garantir experiência.<br><br><strong>Melhorias</strong><br>Níveis de cozinheiro vão aumentar a quantidade de porções e aumentará o quanto a comida irá ficar fresca.",
+
+    "levelupdocs-panning": "Sobre o Peneirar",
+    "levelupdocs-panning-title": "Níveis: Peneirar",
+    "levelupdocs-panning-text": "<strong>Peneirar</strong><br><i>Peneirar: Chocalho</i><br><br>Peneirar irá garantir experiência.<br><br><strong>Melhorias</strong><br>Níveis de peneirar vão lhe garantir mais saques ao peneirar e maior chance de um item aparecer.",
+
+    "levelupdocs-vitality": "Sobre o Vitalidade",
+    "levelupdocs-vitality-title": "Níveis: Vitalidade",
+    "levelupdocs-vitality-text": "<strong>Vitalidade</strong><br><i>Vitalidade: Saco de Pancadas</i><br><br>Levar dano ira lhe conceder experiência.<br><br><strong>Melhorias</strong><br>Níveis de vitalidade vão lhe garantir mais vida e regeneração.",
+
+    "levelupdocs-leatherarmor": "Sobre a Armadura de Couro",
+    "levelupdocs-leatherarmor-title": "Níveis: Armadura de Couro",
+    "levelupdocs-leatherarmor-text": "<strong>Armadura de Couro</strong><br><i>Armadura de Couro: Coureiro</i><br><br>Ao receber dano utilizando armaduras de couro você irá obter experiência com armaduras de couro, quanto mais armaduras de couro você tiver mais experiência você irá obter.<br><br><strong>Melhorias</strong><br>Níveis de armadura de couro vão lhe conceder mais resistencia a danos.",
+
+    "levelupdocs-chainarmor": "Sobre a Armadura de Malha",
+    "levelupdocs-chainarmor-title": "Níveis: Armadura de Malha",
+    "levelupdocs-chainarmor-text": "<strong>Armadura de Malha</strong><br><i>Armadura de Malha: Soldado</i><br><br>Ao receber dano utilizando armaduras de malhas você irá obter experiência com armaduras de malhas, quanto mais armaduras de malhas você tiver mais experiência você irá obter.<br><br><strong>Melhorias</strong><br>Níveis de armadura de malha vão lhe conceder mais resistencia a danos.",
+
+    "levelupdocs-brigandinearmor": "Sobre a Armadura Brigandine",
+    "levelupdocs-brigandinearmor-title": "Níveis: Armadura Brigandine",
+    "levelupdocs-brigandinearmor-text": "<strong>Armadura Brigandine</strong><br><i>Armadura Brigandine: Rei</i><br><br>Ao receber dano utilizando armaduras brigandine você irá obter experiência com armaduras brigandine, quanto mais armaduras brigandine você tiver mais experiência você irá obter.<br><br><strong>Melhorias</strong><br>Níveis de armadura brigandine vão lhe conceder mais resistencia a danos.",
+
+    "levelupdocs-platearmor": "Sobre a Armadura de Placas",
+    "levelupdocs-platearmor-title": "Níveis: Armadura de Placas",
+    "levelupdocs-platearmor-text": "<strong>Armadura de Placas</strong><br><i>Armadura de Placas: Cavaleiro</i><br><br>Ao receber dano utilizando armaduras de placas você irá obter experiência com armaduras de placas, quanto mais armaduras de placas você tiver mais experiência você irá obter.<br><br><strong>Melhorias</strong><br>Níveis de armadura de placas vão lhe conceder mais resistencia a danos.",
+
+    "levelupdocs-scalearmor": "Sobre a Armadura de Escamas",
+    "levelupdocs-scalearmor-title": "Níveis: Armadura de Escamas",
+    "levelupdocs-scalearmor-text": "<strong>Armadura de Escamas</strong><br><i>Armadura de Escamas: Infantaria</i><br><br>Ao receber dano utilizando armaduras de Escamas você irá obter experiência com armaduras de escamas, quanto mais armaduras de escamas você tiver mais experiência você irá obter.<br><br><strong>Melhorias</strong><br>Níveis de armadura de escamas vão lhe conceder mais resistencia a danos.",
+
+    "levelupdocs-smithing": "Sobre a Ferraria",
+    "levelupdocs-smithing-title": "Níveis: Ferraria",
+    "levelupdocs-smithing-text": "<strong>Ferraria</strong><br><i>Ferraria: Forjador</i><br><br>Quando você craftar ferramentas ou armaduras você irá obter experiência, dependendo do craft você recebera mais experiência.<br><br><strong>Melhorias</strong><br>Ferraria irá garantir ferramentas e armadura com durabilidade, dano, velocidade de mineração maior e aumento de proteção nas armaduras, ferraria tem sub níveis, quanto mais você craftar uma ferramenta ou armadura mais forte será, dependerá do quanto você crafta ela."
+}

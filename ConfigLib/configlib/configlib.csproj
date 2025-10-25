@@ -1,0 +1,161 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Mod info -->
+  <PropertyGroup>
+    <ModName>Config lib</ModName>
+    <ModVersion>1.10.8</ModVersion>
+    <ModId>configlib</ModId>
+    <Description>A universal place to configure your mods. Makes it possible for content mods to have configs too.</Description>
+    <Side>universal</Side>
+    <RequiredOnClient>true</RequiredOnClient>
+    <RequiredOnServer>false</RequiredOnServer>
+  </PropertyGroup>
+
+  <!-- Authors -->
+  <ItemGroup>
+    <ModInfoAuthors Include="Maltiez" />
+    <ModInfoAuthors Include="The Insanity God" />
+  </ItemGroup>
+
+  <!-- Dependencies -->
+  <ItemGroup>
+    <Dependencies Include="vsimgui" Version="1.1.12" />
+  </ItemGroup>
+
+  <!-- Project settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.3.13</Version><!-- Do not advance-->
+  </PropertyGroup>
+
+  <!-- Loading local settings file -->
+  <Import Project="Properties\localSettings.props" Condition="Exists('Properties\localSettings.props')" />
+
+  <!-- Paths -->
+  <PropertyGroup>
+    <ProjectDir>$(MSBuildProjectDirectory)</ProjectDir>
+    <SolutionDir>$(ProjectDir)\..</SolutionDir>
+    <OutputDir>bin\$(Configuration)\Mods</OutputDir>
+    <OutputPath>$(OutputDir)\$(ModId)</OutputPath>
+    <ModIconFile>$(ProjectDir)\resources\modicon.png</ModIconFile>
+    <ReleasesDir>$(ProjectDir)\Releases</ReleasesDir>
+    <ReleaseFile>$(ModId)_$(ModVersion).zip</ReleaseFile>
+    <ReleasePath>$(ReleasesDir)\$(ReleaseFile)</ReleasePath>
+  </PropertyGroup>
+
+  <!-- Startup settings -->
+  <PropertyGroup>
+    <DataFolder>$(DataFolderDirectoy)\$(DataFolderName)</DataFolder>
+    <AditionalModsFolder>$(DataFolder)\Mods</AditionalModsFolder>
+    <WorldName>test_$(ModId)</WorldName>
+    <ModDir>$(ProjectDir)\$(OutputDir)</ModDir>
+    <EnterWorldCommand Condition="'$(EnterWorldOnStartup)' == 'true'">"-o" "$(WorldName)"</EnterWorldCommand>
+  </PropertyGroup>
+
+
+  <!-- References to libraries that are being used in project -->
+  <ItemGroup>
+    <!-- Additional dependencies: will be merged into main dll by ILRepack -->
+    <Reference Include="YamlDotNet" HintPath="$(SolutionDir)\lib\YamlDotNet.dll" />
+    <!-- Vintage Story libraries -->
+    <Reference Include="VintagestoryLib" HintPath="$(GameDirectory)/VintagestoryLib.dll" Private="false"/>
+    <Reference Include="VintagestoryAPI" HintPath="$(GameDirectory)/VintagestoryAPI.dll" Private="false"/>
+    <Reference Include="VSSurvivalMod" HintPath="$(GameDirectory)/Mods/VSSurvivalMod.dll" Private="false"/>
+    <Reference Include="VSEssentials" HintPath="$(GameDirectory)/Mods/VSEssentials.dll" Private="false"/>
+    <Reference Include="VSCreativeMod" HintPath="$(GameDirectory)/Mods/VSCreativeMod.dll" Private="false"/>
+    <Reference Include="Newtonsoft.Json" HintPath="$(GameDirectory)/Lib/Newtonsoft.Json.dll" Private="false"/>
+    <Reference Include="0Harmony" HintPath="$(GameDirectory)/Lib/0Harmony.dll" Private="false"/>
+    <Reference Include="protobuf-net" HintPath="$(GameDirectory)/Lib/protobuf-net.dll" Private="false"/>
+    <Reference Include="cairo-sharp" HintPath="$(GameDirectory)/Lib/cairo-sharp.dll" Private="false"/>
+    <Reference Include="JsonDiffPatch" HintPath="$(GameDirectory)/Lib/JsonDiffPatch.dll" Private="false"/>
+    <Reference Include="cairo-sharp" HintPath="$(GameDirectory)/Lib/cairo-sharp.dll" Private="false"/>
+    <Reference Include="Tavis.JsonPatch" HintPath="$(GameDirectory)/Lib/Tavis.JsonPatch.dll" Private="false"/>
+    <Reference Include="SkiaSharp" HintPath="$(GameDirectory)/Lib/SkiaSharp.dll" Private="false"/>
+    <Reference Include="$(GameDirectory)/Lib/OpenTK*.dll" Private="false"/>
+    <!-- ImGui -->
+    <PackageReference Include="VSImGui" Version="0.0.6" />
+  </ItemGroup>
+
+  <!-- SimpleExpressionEngine project ref; Is used for patching values with expressions -->
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\SimpleExpressionEngine\SimpleExpressionEngine\SimpleExpressionEngine.csproj" />
+  </ItemGroup>
+
+  <!-- ILRepack nugget package ref; Is used to merge multiple dlls into one to avoid conflicts -->
+  <ItemGroup>
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- Creating local settings file -->
+  <PropertyGroup>
+    <DefaultLocalSettingsFile>
+&lt;Project&gt;
+   &lt;PropertyGroup&gt;
+      &lt;DataFolderName&gt;VintagestoryData&lt;/DataFolderName&gt;
+      &lt;GameDirectory&gt;%24(VINTAGE_STORY)&lt;/GameDirectory&gt;
+      &lt;EnterWorldOnStartup&gt;false&lt;/EnterWorldOnStartup&gt;
+      &lt;DataFolderDirectoy&gt;%24(AppData)&lt;/DataFolderDirectoy&gt;
+   &lt;/PropertyGroup&gt;
+&lt;/Project&gt;
+    </DefaultLocalSettingsFile>
+  </PropertyGroup>
+  <Target Name="EnsureSettingsJson" BeforeTargets="ModInfo" Condition="!Exists('Properties\localSettings.props')">
+    <MakeDir Directories="Properties" />
+    <WriteLinesToFile File="Properties\localSettings.props" Overwrite="true" Lines="$(DefaultLocalSettingsFile)" />
+    <Error Text="Local settings file was missing, generated a new one. Run build again." />
+  </Target>
+
+  <!-- Forces rebuild -->
+  <Target Name="ForceRebuild" BeforeTargets="BeforeBuild">
+    <Touch Files="@(Compile)" AlwaysCreate="true" />
+  </Target>
+  
+  <!-- Creates/updates modinfo.json file in build directory -->
+  <Target Name="ModInfo" BeforeTargets="CopyFilesToOutput">
+    <PropertyGroup>
+      <ModInfo>
+{
+    "type": "code",
+    "name": "$(ModName)",
+    "modid": "$(ModId)",
+    "version": "$(ModVersion)",
+
+    "description": "$(Description)",
+    "authors": [ @(ModInfoAuthors->'"%(Identity)"', ', ') ],
+
+    "dependencies": {
+        @(Dependencies->'"%(Identity)": "%(Version)"', ', ')
+    },
+    
+    "side" : "$(Side)",
+	  "requiredOnClient": $(RequiredOnClient),
+	  "requiredOnServer": $(RequiredOnServer)
+}
+      </ModInfo>
+    </PropertyGroup>
+    <Message Text="Generating modinfo.json" Importance="high" />
+    <WriteLinesToFile File="$(OutputPath)/modinfo.json" Lines="$(ModInfo)" Overwrite="true" WriteOnlyWhenDifferent="true" />
+  </Target>
+
+  <!-- Copies modicon if it exists into output directory -->
+  <Target Name="CopyFilesToOutput" AfterTargets="ModInfo" BeforeTargets="BeforeBuild">
+    <ItemGroup Condition="Exists('$(ModIconFile)')">
+      <ModIcon Include="$(ModIconFile)" />
+    </ItemGroup>
+    <!-- Puts modicon to output folder -->
+    <Copy SourceFiles="@(ModIcon)" DestinationFolder="$(OutputPath)" Condition="Exists('$(ModIconFile)')" />
+  </Target>
+
+  <!-- Archives output directory into zip and puts it into Releases folder -->
+  <Target Name="ZipFiles" AfterTargets="CleanReferenceCopyLocalPaths" Condition=" '$(Configuration)' == 'Release' ">
+    <Message Text="Pachaging into '$(ReleaseFile)'" Importance="high" />
+    <MakeDir Directories="$(ReleasesDir)" />
+    <Delete Files="$(ReleasePath)" />
+    <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleasePath)" />
+  </Target>
+</Project>

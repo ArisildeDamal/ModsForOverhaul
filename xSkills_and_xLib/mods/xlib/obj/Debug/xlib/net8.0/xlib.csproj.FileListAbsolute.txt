@@ -1,0 +1,3 @@
+C:\Users\arisi\Desktop\Decompiles\VSMods-master\VSMods-master\mods\xlib\obj\Debug\xlib\net8.0\xlib.csproj.AssemblyReference.cache
+C:\Users\arisi\Desktop\Decompiles\VSMods-master\VSMods-master\mods\xlib\obj\Debug\xlib\net8.0\xlib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arisi\Desktop\Decompiles\VSMods-master\VSMods-master\mods\xlib\obj\Debug\xlib\net8.0\xlib.csproj.CoreCompileInputs.cache

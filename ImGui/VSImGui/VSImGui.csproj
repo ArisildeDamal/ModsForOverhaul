@@ -1,0 +1,154 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Mod info -->
+  <PropertyGroup>
+    <ModName>Dear ImGui</ModName>
+    <ModVersion>1.1.14</ModVersion>
+    <Version>0.0.6</Version>
+    <ModId>vsimgui</ModId>
+    <Description>Brings famous immediate mode GUI to Vintage Story</Description>
+    <Side>Universal</Side>
+    <RequiredOnClient>true</RequiredOnClient>
+    <RequiredOnServer>false</RequiredOnServer>
+  </PropertyGroup>
+
+  <!-- Authors -->
+  <ItemGroup>
+    <ModInfoAuthors Include="Maltiez" />
+  </ItemGroup>
+  
+  <!-- Project settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <!-- Paths -->
+  <PropertyGroup>
+    <ProjectDir>$(MSBuildProjectDirectory)</ProjectDir>
+    <OutputDir>bin\$(Configuration)\Mods</OutputDir>
+    <OutputPath>$(OutputDir)\$(ModId)</OutputPath>
+    <ControllerSubmoduleDir>ImGui.NET_OpenTK_Sample_multi-viewports\ImGuiController_OpenTK</ControllerSubmoduleDir>
+    <GameDirectory>$(VINTAGE_STORY)</GameDirectory>
+    <BindingsDir>$(ProjectDir)\..\$(ControllerSubmoduleDir)\lib\bindings</BindingsDir>
+    <NativesDir>$(ProjectDir)\..\$(ControllerSubmoduleDir)\lib\native</NativesDir>
+    <AssetsDir>$(ProjectDir)\resources\assets</AssetsDir>
+    <ModIconFile>$(ProjectDir)\resources\modicon.png</ModIconFile>
+    <ReleasesDir>$(ProjectDir)\Releases</ReleasesDir>
+    <ReleaseFile>$(ReleasesDir)\$(ModId)_$(ModVersion).zip</ReleaseFile>
+  </PropertyGroup>
+  
+  <!-- Startup settings -->
+  <PropertyGroup>
+    <DataFolderName>VintagestoryDataDev</DataFolderName>
+    <AppDataDir>C:\Users\user\AppData\Roaming</AppDataDir>
+    <DataFolder>$(AppDataDir)\$(DataFolderName)</DataFolder>
+    <AditionalModsFolder>$(AppDataDir)\$(DataFolderName)\Mods</AditionalModsFolder>
+    <WorldName>test_$(ModId)</WorldName>
+    <ModDir>$(ProjectDir)\$(OutputDir)</ModDir>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Vintage Story ImGui</Title>
+    <Authors>Maltiez</Authors>
+    <PackageProjectUrl>https://mods.vintagestory.at/imgui</PackageProjectUrl>
+    <PackageIcon>packageicon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/maltiez2/VintageStory_ImGui</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Vintage Story;VintageStory;ImGui;Dear ImGui;ImGui.NET;Debug;Tools;GUI library;GUI;multiple viewports;ImNodes;ImGuizmo;ImPlot</PackageTags>
+    <PackageOutputPath>$(ReleasesDir)</PackageOutputPath>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <DebugToolsDll>$(ProjectDir)\..\VSImGui_DebugTools\bin\$(Configuration)\$(TargetFramework)\VSImGui_DebugTools.dll</DebugToolsDll>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="resources\packageicon.png" Pack="true" PackagePath="" />
+    <None Include="resources\README.md" Pack="true" PackagePath="" />
+    <None Include="$(OutputDir)\*.xml" Pack="true" PackagePath="docs" Visible="false" />
+    <PackageReference Include="VSImGui_DebugTools" Version="0.0.5" />
+    <None Include="$(ProjectDir)\..\$(ControllerSubmoduleDir)\bin\Release\$(TargetFramework)\ImGuiController_OpenTK.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
+    <None Include="$(BindingsDir)\ImGui.NET.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
+    <None Include="$(BindingsDir)\ImGuizmo.NET.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
+    <None Include="$(BindingsDir)\ImNodes.NET.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
+    <None Include="$(BindingsDir)\ImPlot.NET.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
+  </ItemGroup>
+  
+  <!-- References to libraries that are being used in project -->
+  <ItemGroup>
+    <Reference Include="VSImGui_DebugTools">
+      <HintPath>$(DebugToolsDll)</HintPath>
+    </Reference>
+    <Reference Include="ImGuiController_OpenTK">
+      <HintPath>$(ProjectDir)\..\$(ControllerSubmoduleDir)\bin\Release\net7.0\ImGuiController_OpenTK.dll</HintPath>
+    </Reference>
+    <!-- Bindings: will be copied into output directory -->
+    <Reference Include="ImGui.NET">
+      <HintPath>$(BindingsDir)\ImGui.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ImGuizmo.NET">
+      <HintPath>$(BindingsDir)\ImGuizmo.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ImNodes.NET">
+      <HintPath>$(BindingsDir)\ImNodes.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ImPlot.NET" HintPath="">
+      <HintPath>$(BindingsDir)\ImPlot.NET.dll</HintPath>
+    </Reference>
+    <!-- Vintage Story dependencies: wont be copied into output directory -->
+    <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />  
+  </ItemGroup>
+  
+  <!-- Creates/updates modinfo.json file in build directory -->
+  <Target Name="ModInfo" AfterTargets="Build">
+    <PropertyGroup>
+      <ModInfo>
+{
+    "type": "code",
+    "name": "$(ModName)",
+    "modid": "$(ModId)",
+    "version": "$(ModVersion)",
+
+    "description": "$(Description)",
+    "authors": [ @(ModInfoAuthors->'"%(Identity)"', ', ') ],
+
+    "dependencies": {
+        @(Dependencies->'"%(Identity)": "%(Version)"', ', ')
+    },
+    
+    "side" : "$(Side)",
+	  "requiredOnClient": $(RequiredOnClient),
+	  "requiredOnServer": $(RequiredOnServer)
+}
+      </ModInfo>
+    </PropertyGroup>
+    <WriteLinesToFile File="$(OutputPath)/modinfo.json" Lines="$(ModInfo)" Overwrite="true" WriteOnlyWhenDifferent="true" />
+  </Target>
+
+  <!-- Copies modicon, assets folder and native libraries if they exist into output directory -->
+  <Target Name="CopyFilesToOutput" AfterTargets="ModInfo">
+    <ItemGroup Condition="Exists('$(NativesDir)')">
+      <NativesFolder Include="$(NativesDir)\**\*.*" />
+    </ItemGroup>
+    <ItemGroup Condition="Exists('$(AssetsDir)')">
+      <AssetsFolder Include="$(AssetsDir)\**\*.*" />
+    </ItemGroup>
+    <ItemGroup Condition="Exists('$(ModIconFile)')">
+      <ModIcon Include="$(ModIconFile)" />
+    </ItemGroup>
+    <ItemGroup>
+      <ModIcon Include="$(DebugToolsDll)" />
+    </ItemGroup>
+    <Copy SourceFiles="@(NativesFolder)" DestinationFiles="@(NativesFolder->'$(OutputPath)native\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(NativesDir)')" />
+    <Copy SourceFiles="@(AssetsFolder)" DestinationFiles="@(AssetsFolder->'$(OutputPath)assets\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(AssetsDir)')" />
+    <Copy SourceFiles="@(ModIcon)" DestinationFolder="$(OutputPath)" Condition="Exists('$(ModIconFile)')" />
+    <Copy SourceFiles="@(DebugToolsDll)" DestinationFolder="$(OutputPath)" />
+  </Target>
+
+  <!-- Archives output directory into zip and puts it into Releases folder -->
+  <Target Name="ZipFiles" AfterTargets="CopyFilesToOutput" Condition=" '$(Configuration)' == 'Release' ">
+    <MakeDir Directories="$(ReleasesDir)" />
+    <Delete Files="$(ReleaseFile)" />
+    <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleaseFile)" />
+  </Target>
+</Project>

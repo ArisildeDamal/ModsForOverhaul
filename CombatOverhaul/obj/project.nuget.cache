@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "R/CxqiAc79o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arisi\\Desktop\\Decompiles\\CombatOverhaul\\CombatOverhaul.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arisi\\.nuget\\packages\\vsimgui\\0.0.6\\vsimgui.0.0.6.nupkg.sha512",
+    "C:\\Users\\arisi\\.nuget\\packages\\vsimgui_debugtools\\0.0.5\\vsimgui_debugtools.0.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

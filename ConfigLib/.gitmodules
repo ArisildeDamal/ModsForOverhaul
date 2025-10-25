@@ -1,0 +1,3 @@
+[submodule "SimpleExpressionEngine"]
+	path = SimpleExpressionEngine
+	url = https://github.com/maltiez2/SimpleExpressionEngine

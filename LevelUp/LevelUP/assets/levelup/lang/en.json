@@ -1,0 +1,31 @@
+{
+    "player_levelup": "You reached level {0} in {1}",
+    "player_sublevelup": "You reached proficiency {0} with {1} in {2}",
+
+    "levels_tab": "Levels",
+    "progress": "Progress: {0}",
+
+    "axe": "Axe",
+    "pickaxe": "Pickaxe",
+    "shovel": "Shovel",
+    "bow": "Bow",
+    "spear": "Spear",
+    "knife": "Knife",
+    "hammer": "Hammer",
+    "smithing": "Smithing",
+    "sword": "Sword",
+    "shield": "Shield",
+    "hand": "Hand",
+
+    "leatherarmor": "Leather Armor",
+    "chainarmor": "Chain Armor",
+    "brigandinearmor": "Brigandine Armor",
+    "platearmor": "Plate Armor",
+    "scalearmor": "Scale Armor",
+
+    "hunter": "Hunter",
+    "farming": "Farming",
+    "cooking": "Cooking",
+    "panning": "Panning",
+    "vitality": "Vitality"
+}
