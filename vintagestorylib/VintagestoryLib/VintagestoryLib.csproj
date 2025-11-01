@@ -1,0 +1,1178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{047EC491-1C12-4EAB-9783-9E5D4D8B1651}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VintagestoryLib</RootNamespace>
+    <AssemblyName>VintagestoryLib</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\Lib\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="cairo-sharp">
+      <HintPath>..\..\Lib\cairo-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>..\..\Lib\CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="csogg">
+      <HintPath>..\..\Lib\csogg.dll</HintPath>
+    </Reference>
+    <Reference Include="csvorbis">
+      <HintPath>..\..\Lib\csvorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>..\..\Lib\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis" />
+    <Reference Include="Microsoft.CodeAnalysis.CSharp" />
+    <Reference Include="Microsoft.Data.Sqlite" />
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\Lib\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Nat">
+      <HintPath>..\..\Lib\Mono.Nat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Open.Nat">
+      <HintPath>..\..\Lib\Open.Nat.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Audio.OpenAL">
+      <HintPath>..\..\Lib\OpenTK.Audio.OpenAL.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Graphics">
+      <HintPath>..\..\Lib\OpenTK.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Mathematics">
+      <HintPath>..\..\Lib\OpenTK.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.Common">
+      <HintPath>..\..\Lib\OpenTK.Windowing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.Desktop">
+      <HintPath>..\..\Lib\OpenTK.Windowing.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.GraphicsLibraryFramework">
+      <HintPath>..\..\Lib\OpenTK.Windowing.GraphicsLibraryFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\..\Lib\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>..\..\VintagestoryAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="xplatforminterface">
+      <HintPath>..\..\Lib\xplatforminterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BitTools.cs" />
+    <Compile Include="BoxedArray.cs" />
+    <Compile Include="CitoMemoryStream.cs" />
+    <Compile Include="CitoSeekOrigin.cs" />
+    <Compile Include="CitoStream.cs" />
+    <Compile Include="ClientTask.cs" />
+    <Compile Include="ConsoleWindowUtil.cs" />
+    <Compile Include="GameExit.cs" />
+    <Compile Include="GuiScreen.cs" />
+    <Compile Include="GuiScreenMainRight.cs" />
+    <Compile Include="IPacket.cs" />
+    <Compile Include="Key.cs" />
+    <Compile Include="KeyValue.cs" />
+    <Compile Include="NewFrameHandler.cs" />
+    <Compile Include="Packet_ActivateInventorySlot.cs" />
+    <Compile Include="Packet_ActivateInventorySlotSerializer.cs" />
+    <Compile Include="Packet_Ambient.cs" />
+    <Compile Include="Packet_AmbientSerializer.cs" />
+    <Compile Include="Packet_Behavior.cs" />
+    <Compile Include="Packet_BehaviorSerializer.cs" />
+    <Compile Include="Packet_BlendedOverlayTexture.cs" />
+    <Compile Include="Packet_BlendedOverlayTextureSerializer.cs" />
+    <Compile Include="Packet_BlockDamage.cs" />
+    <Compile Include="Packet_BlockDamageSerializer.cs" />
+    <Compile Include="Packet_BlockDrop.cs" />
+    <Compile Include="Packet_BlockDropSerializer.cs" />
+    <Compile Include="Packet_BlockEntities.cs" />
+    <Compile Include="Packet_BlockEntitiesSerializer.cs" />
+    <Compile Include="Packet_BlockEntity.cs" />
+    <Compile Include="Packet_BlockEntityMessage.cs" />
+    <Compile Include="Packet_BlockEntityMessageSerializer.cs" />
+    <Compile Include="Packet_BlockEntityPacket.cs" />
+    <Compile Include="Packet_BlockEntityPacketSerializer.cs" />
+    <Compile Include="Packet_BlockEntitySerializer.cs" />
+    <Compile Include="Packet_BlockSetModeEnum.cs" />
+    <Compile Include="Packet_BlockSoundSet.cs" />
+    <Compile Include="Packet_BlockSoundSetSerializer.cs" />
+    <Compile Include="Packet_BlockType.cs" />
+    <Compile Include="Packet_BlockTypeSerializer.cs" />
+    <Compile Include="Packet_BulkEntityAttributes.cs" />
+    <Compile Include="Packet_BulkEntityAttributesSerializer.cs" />
+    <Compile Include="Packet_BulkEntityDebugAttributes.cs" />
+    <Compile Include="Packet_BulkEntityDebugAttributesSerializer.cs" />
+    <Compile Include="Packet_BulkEntityPosition.cs" />
+    <Compile Include="Packet_BulkEntityPositionSerializer.cs" />
+    <Compile Include="Packet_ChatLine.cs" />
+    <Compile Include="Packet_ChatLineSerializer.cs" />
+    <Compile Include="Packet_Client.cs" />
+    <Compile Include="Packet_ClientBlockPlaceOrBreak.cs" />
+    <Compile Include="Packet_ClientBlockPlaceOrBreakSerializer.cs" />
+    <Compile Include="Packet_ClientHandInteraction.cs" />
+    <Compile Include="Packet_ClientHandInteractionSerializer.cs" />
+    <Compile Include="Packet_ClientIdentification.cs" />
+    <Compile Include="Packet_ClientIdentificationSerializer.cs" />
+    <Compile Include="Packet_ClientIdEnum.cs" />
+    <Compile Include="Packet_ClientLeave.cs" />
+    <Compile Include="Packet_ClientLeaveSerializer.cs" />
+    <Compile Include="Packet_ClientLoaded.cs" />
+    <Compile Include="Packet_ClientLoadedSerializer.cs" />
+    <Compile Include="Packet_ClientPingReply.cs" />
+    <Compile Include="Packet_ClientPingReplySerializer.cs" />
+    <Compile Include="Packet_ClientPlaying.cs" />
+    <Compile Include="Packet_ClientPlayingSerializer.cs" />
+    <Compile Include="Packet_ClientRequestJoin.cs" />
+    <Compile Include="Packet_ClientRequestJoinSerializer.cs" />
+    <Compile Include="Packet_ClientSerializer.cs" />
+    <Compile Include="Packet_ClientServerQuery.cs" />
+    <Compile Include="Packet_ClientServerQuerySerializer.cs" />
+    <Compile Include="Packet_ClientSpecialKey.cs" />
+    <Compile Include="Packet_ClientSpecialKeySerializer.cs" />
+    <Compile Include="Packet_CombustibleProperties.cs" />
+    <Compile Include="Packet_CombustiblePropertiesSerializer.cs" />
+    <Compile Include="Packet_CompositeShape.cs" />
+    <Compile Include="Packet_CompositeShapeSerializer.cs" />
+    <Compile Include="Packet_CompositeTexture.cs" />
+    <Compile Include="Packet_CompositeTextureSerializer.cs" />
+    <Compile Include="Packet_ConnectionPacket.cs" />
+    <Compile Include="Packet_ConnectionPacketSerializer.cs" />
+    <Compile Include="Packet_CreateItemstack.cs" />
+    <Compile Include="Packet_CreateItemstackSerializer.cs" />
+    <Compile Include="Packet_CrushingProperties.cs" />
+    <Compile Include="Packet_CrushingPropertiesSerializer.cs" />
+    <Compile Include="Packet_Cube.cs" />
+    <Compile Include="Packet_CubeSerializer.cs" />
+    <Compile Include="Packet_CustomPacket.cs" />
+    <Compile Include="Packet_CustomPacketSerializer.cs" />
+    <Compile Include="Packet_Entities.cs" />
+    <Compile Include="Packet_EntitiesSerializer.cs" />
+    <Compile Include="Packet_Entity.cs" />
+    <Compile Include="Packet_EntityAttributes.cs" />
+    <Compile Include="Packet_EntityAttributesSerializer.cs" />
+    <Compile Include="Packet_EntityAttributeUpdate.cs" />
+    <Compile Include="Packet_EntityAttributeUpdateSerializer.cs" />
+    <Compile Include="Packet_EntityBoundingBox.cs" />
+    <Compile Include="Packet_EntityBoundingBoxSerializer.cs" />
+    <Compile Include="Packet_EntityDespawn.cs" />
+    <Compile Include="Packet_EntityDespawnSerializer.cs" />
+    <Compile Include="Packet_EntityInteraction.cs" />
+    <Compile Include="Packet_EntityInteractionSerializer.cs" />
+    <Compile Include="Packet_EntityPacket.cs" />
+    <Compile Include="Packet_EntityPacketSerializer.cs" />
+    <Compile Include="Packet_EntityPosition.cs" />
+    <Compile Include="Packet_EntityPositionSerializer.cs" />
+    <Compile Include="Packet_EntitySerializer.cs" />
+    <Compile Include="Packet_EntitySpawn.cs" />
+    <Compile Include="Packet_EntitySpawnSerializer.cs" />
+    <Compile Include="Packet_EntityType.cs" />
+    <Compile Include="Packet_EntityTypeSerializer.cs" />
+    <Compile Include="Packet_FlipItemstacks.cs" />
+    <Compile Include="Packet_FlipItemstacksSerializer.cs" />
+    <Compile Include="Packet_GeneratedStructure.cs" />
+    <Compile Include="Packet_GeneratedStructureSerializer.cs" />
+    <Compile Include="Packet_GotoGroup.cs" />
+    <Compile Include="Packet_GotoGroupSerializer.cs" />
+    <Compile Include="Packet_GrindingProperties.cs" />
+    <Compile Include="Packet_GrindingPropertiesSerializer.cs" />
+    <Compile Include="Packet_HeldSoundSet.cs" />
+    <Compile Include="Packet_HeldSoundSetSerializer.cs" />
+    <Compile Include="Packet_HighlightBlocks.cs" />
+    <Compile Include="Packet_HighlightBlocksSerializer.cs" />
+    <Compile Include="Packet_IngameDiscovery.cs" />
+    <Compile Include="Packet_IngameDiscoverySerializer.cs" />
+    <Compile Include="Packet_IngameError.cs" />
+    <Compile Include="Packet_IngameErrorSerializer.cs" />
+    <Compile Include="Packet_IntMap.cs" />
+    <Compile Include="Packet_IntMapSerializer.cs" />
+    <Compile Include="Packet_IntString.cs" />
+    <Compile Include="Packet_IntStringSerializer.cs" />
+    <Compile Include="Packet_InventoryContents.cs" />
+    <Compile Include="Packet_InventoryContentsSerializer.cs" />
+    <Compile Include="Packet_InventoryDoubleUpdate.cs" />
+    <Compile Include="Packet_InventoryDoubleUpdateSerializer.cs" />
+    <Compile Include="Packet_InventoryUpdate.cs" />
+    <Compile Include="Packet_InventoryUpdateSerializer.cs" />
+    <Compile Include="Packet_InvOpenClose.cs" />
+    <Compile Include="Packet_InvOpenCloseSerializer.cs" />
+    <Compile Include="Packet_ItemClassEnum.cs" />
+    <Compile Include="Packet_ItemStack.cs" />
+    <Compile Include="Packet_ItemStackSerializer.cs" />
+    <Compile Include="Packet_ItemType.cs" />
+    <Compile Include="Packet_ItemTypeSerializer.cs" />
+    <Compile Include="Packet_LandClaim.cs" />
+    <Compile Include="Packet_LandClaims.cs" />
+    <Compile Include="Packet_LandClaimSerializer.cs" />
+    <Compile Include="Packet_LandClaimsSerializer.cs" />
+    <Compile Include="Packet_LeaveReasonEnum.cs" />
+    <Compile Include="Packet_LoginTokenAnswer.cs" />
+    <Compile Include="Packet_LoginTokenAnswerSerializer.cs" />
+    <Compile Include="Packet_LoginTokenQuery.cs" />
+    <Compile Include="Packet_LoginTokenQuerySerializer.cs" />
+    <Compile Include="Packet_MapRegion.cs" />
+    <Compile Include="Packet_MapRegionSerializer.cs" />
+    <Compile Include="Packet_MatterStateEnum.cs" />
+    <Compile Include="Packet_ModelTransform.cs" />
+    <Compile Include="Packet_ModelTransformSerializer.cs" />
+    <Compile Include="Packet_ModId.cs" />
+    <Compile Include="Packet_ModIdSerializer.cs" />
+    <Compile Include="Packet_MoveItemstack.cs" />
+    <Compile Include="Packet_MoveItemstackSerializer.cs" />
+    <Compile Include="Packet_MoveKeyChange.cs" />
+    <Compile Include="Packet_MoveKeyChangeSerializer.cs" />
+    <Compile Include="Packet_MoveKeyEnum.cs" />
+    <Compile Include="Packet_NatFloat.cs" />
+    <Compile Include="Packet_NatFloatSerializer.cs" />
+    <Compile Include="Packet_NetworkChannels.cs" />
+    <Compile Include="Packet_NetworkChannelsSerializer.cs" />
+    <Compile Include="Packet_NotifySlot.cs" />
+    <Compile Include="Packet_NotifySlotSerializer.cs" />
+    <Compile Include="Packet_NutritionProperties.cs" />
+    <Compile Include="Packet_NutritionPropertiesSerializer.cs" />
+    <Compile Include="Packet_PartialAttribute.cs" />
+    <Compile Include="Packet_PartialAttributeSerializer.cs" />
+    <Compile Include="Packet_PlayerData.cs" />
+    <Compile Include="Packet_PlayerDataSerializer.cs" />
+    <Compile Include="Packet_PlayerDeath.cs" />
+    <Compile Include="Packet_PlayerDeathSerializer.cs" />
+    <Compile Include="Packet_PlayerGroup.cs" />
+    <Compile Include="Packet_PlayerGroups.cs" />
+    <Compile Include="Packet_PlayerGroupSerializer.cs" />
+    <Compile Include="Packet_PlayerGroupsSerializer.cs" />
+    <Compile Include="Packet_PlayerMode.cs" />
+    <Compile Include="Packet_PlayerModeSerializer.cs" />
+    <Compile Include="Packet_QueuePacket.cs" />
+    <Compile Include="Packet_QueuePacketSerializer.cs" />
+    <Compile Include="Packet_Recipes.cs" />
+    <Compile Include="Packet_RecipesSerializer.cs" />
+    <Compile Include="Packet_RemoveBlockLight.cs" />
+    <Compile Include="Packet_RemoveBlockLightSerializer.cs" />
+    <Compile Include="Packet_Role.cs" />
+    <Compile Include="Packet_Roles.cs" />
+    <Compile Include="Packet_RoleSerializer.cs" />
+    <Compile Include="Packet_RolesSerializer.cs" />
+    <Compile Include="Packet_RuntimeSetting.cs" />
+    <Compile Include="Packet_RuntimeSettingSerializer.cs" />
+    <Compile Include="Packet_SelectedHotbarSlot.cs" />
+    <Compile Include="Packet_SelectedHotbarSlotSerializer.cs" />
+    <Compile Include="Packet_Server.cs" />
+    <Compile Include="Packet_ServerAssets.cs" />
+    <Compile Include="Packet_ServerAssetsSerializer.cs" />
+    <Compile Include="Packet_ServerCalendar.cs" />
+    <Compile Include="Packet_ServerCalendarSerializer.cs" />
+    <Compile Include="Packet_ServerChunk.cs" />
+    <Compile Include="Packet_ServerChunks.cs" />
+    <Compile Include="Packet_ServerChunkSerializer.cs" />
+    <Compile Include="Packet_ServerChunksSerializer.cs" />
+    <Compile Include="Packet_ServerDisconnectPlayer.cs" />
+    <Compile Include="Packet_ServerDisconnectPlayerSerializer.cs" />
+    <Compile Include="Packet_ServerEntityDrawBlock.cs" />
+    <Compile Include="Packet_ServerEntityDrawBlockSerializer.cs" />
+    <Compile Include="Packet_ServerExchangeBlock.cs" />
+    <Compile Include="Packet_ServerExchangeBlockSerializer.cs" />
+    <Compile Include="Packet_ServerIdentification.cs" />
+    <Compile Include="Packet_ServerIdentificationSerializer.cs" />
+    <Compile Include="Packet_ServerIdEnum.cs" />
+    <Compile Include="Packet_ServerLevelFinalize.cs" />
+    <Compile Include="Packet_ServerLevelFinalizeSerializer.cs" />
+    <Compile Include="Packet_ServerLevelInitialize.cs" />
+    <Compile Include="Packet_ServerLevelInitializeSerializer.cs" />
+    <Compile Include="Packet_ServerLevelProgress.cs" />
+    <Compile Include="Packet_ServerLevelProgressSerializer.cs" />
+    <Compile Include="Packet_ServerMapChunk.cs" />
+    <Compile Include="Packet_ServerMapChunkSerializer.cs" />
+    <Compile Include="Packet_ServerPing.cs" />
+    <Compile Include="Packet_ServerPingSerializer.cs" />
+    <Compile Include="Packet_ServerPlayerPing.cs" />
+    <Compile Include="Packet_ServerPlayerPingSerializer.cs" />
+    <Compile Include="Packet_ServerQueryAnswer.cs" />
+    <Compile Include="Packet_ServerQueryAnswerSerializer.cs" />
+    <Compile Include="Packet_ServerReady.cs" />
+    <Compile Include="Packet_ServerReadySerializer.cs" />
+    <Compile Include="Packet_ServerRedirect.cs" />
+    <Compile Include="Packet_ServerRedirectSerializer.cs" />
+    <Compile Include="Packet_ServerSerializer.cs" />
+    <Compile Include="Packet_ServerSetBlock.cs" />
+    <Compile Include="Packet_ServerSetBlocks.cs" />
+    <Compile Include="Packet_ServerSetBlockSerializer.cs" />
+    <Compile Include="Packet_ServerSetBlocksSerializer.cs" />
+    <Compile Include="Packet_ServerSetDecors.cs" />
+    <Compile Include="Packet_ServerSetDecorsSerializer.cs" />
+    <Compile Include="Packet_ServerSound.cs" />
+    <Compile Include="Packet_ServerSoundSerializer.cs" />
+    <Compile Include="Packet_SpawnParticles.cs" />
+    <Compile Include="Packet_SpawnParticlesSerializer.cs" />
+    <Compile Include="Packet_SpecialKeyEnum.cs" />
+    <Compile Include="Packet_StopMovement.cs" />
+    <Compile Include="Packet_StopMovementSerializer.cs" />
+    <Compile Include="Packet_StringList.cs" />
+    <Compile Include="Packet_StringListSerializer.cs" />
+    <Compile Include="Packet_Tags.cs" />
+    <Compile Include="Packet_TagsSerializer.cs" />
+    <Compile Include="Packet_ToolMode.cs" />
+    <Compile Include="Packet_ToolModeSerializer.cs" />
+    <Compile Include="Packet_TransitionableProperties.cs" />
+    <Compile Include="Packet_TransitionablePropertiesSerializer.cs" />
+    <Compile Include="Packet_UdpPacket.cs" />
+    <Compile Include="Packet_UdpPacketIdEnum.cs" />
+    <Compile Include="Packet_UdpPacketSerializer.cs" />
+    <Compile Include="Packet_UnloadMapRegion.cs" />
+    <Compile Include="Packet_UnloadMapRegionSerializer.cs" />
+    <Compile Include="Packet_UnloadServerChunk.cs" />
+    <Compile Include="Packet_UnloadServerChunkSerializer.cs" />
+    <Compile Include="Packet_VariantPart.cs" />
+    <Compile Include="Packet_VariantPartSerializer.cs" />
+    <Compile Include="Packet_WorldMetaData.cs" />
+    <Compile Include="Packet_WorldMetaDataSerializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolParser.cs" />
+    <Compile Include="ProtoPlatform.cs" />
+    <Compile Include="SaveGame.cs" />
+    <Compile Include="Server\Systems\ServerSystemBlockLogger.cs" />
+    <Compile Include="VectorTool.cs" />
+    <Compile Include="Vintagestory\API\Common\EventHelper.cs" />
+    <Compile Include="Vintagestory\ClientLogger.cs" />
+    <Compile Include="Vintagestory\ClientNative\CrashReporter.cs" />
+    <Compile Include="Vintagestory\ClientNative\Screenshot.cs" />
+    <Compile Include="Vintagestory\Client\AudioOpenAl.cs" />
+    <Compile Include="Vintagestory\Client\BlockAndPos.cs" />
+    <Compile Include="Vintagestory\Client\ClientMapChunk.cs" />
+    <Compile Include="Vintagestory\Client\ClientMapRegion.cs" />
+    <Compile Include="Vintagestory\Client\ClientPackets.cs" />
+    <Compile Include="Vintagestory\Client\ClientProgram.cs" />
+    <Compile Include="Vintagestory\Client\ClientProgramArgs.cs" />
+    <Compile Include="Vintagestory\Client\DummyTcpNetClient.cs" />
+    <Compile Include="Vintagestory\Client\ElementWindowBounds.cs" />
+    <Compile Include="Vintagestory\Client\EnumDownloadModType.cs" />
+    <Compile Include="Vintagestory\Client\GameBuild.cs" />
+    <Compile Include="Vintagestory\Client\GameReleaseVersion.cs" />
+    <Compile Include="Vintagestory\Client\GraphicsPreset.cs" />
+    <Compile Include="Vintagestory\Client\GuiCompositeMainMenuLeft.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenConfirmAction.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenConnectingToServer.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenCredits.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenDisconnected.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenDownloadMods.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenExitingServer.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenGetUpdate.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenLoadingGame.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenLogin.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenMessage.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenMods.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenMultiplayer.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenMultiplayerModify.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenMultiplayerNewServer.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenOnlineMods.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenRunningGame.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenServerDashboard.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenServerResetWorld.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenSingleplayer.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenSingleplayerModify.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenSingleplayerNewWorld.cs" />
+    <Compile Include="Vintagestory\Client\GuiScreenWorldCustomize.cs" />
+    <Compile Include="Vintagestory\Client\Gui\MainMenuAPI.cs" />
+    <Compile Include="Vintagestory\Client\Gui\MainMenuEventApi.cs" />
+    <Compile Include="Vintagestory\Client\Gui\MainMenuGuiAPI.cs" />
+    <Compile Include="Vintagestory\Client\Gui\MainMenuInputAPI.cs" />
+    <Compile Include="Vintagestory\Client\Gui\MainMenuRenderAPI.cs" />
+    <Compile Include="Vintagestory\Client\HotkeyCapturer.cs" />
+    <Compile Include="Vintagestory\Client\HotkeyManager.cs" />
+    <Compile Include="Vintagestory\Client\IGuiController.cs" />
+    <Compile Include="Vintagestory\Client\KeyEventHandler.cs" />
+    <Compile Include="Vintagestory\Client\KeyModifiers.cs" />
+    <Compile Include="Vintagestory\Client\LoadedSoundNative.cs" />
+    <Compile Include="Vintagestory\Client\LoadSoundsThread.cs" />
+    <Compile Include="Vintagestory\Client\LogEntry.cs" />
+    <Compile Include="Vintagestory\Client\MaxObf\SessionManager.cs" />
+    <Compile Include="Vintagestory\Client\MouseEventHandler.cs" />
+    <Compile Include="Vintagestory\Client\Network\DummyUdpNetClient.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AmbientManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AmbientSound.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AtlasRenderTask.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AudioData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AudioMetaData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\AudioSampleCi.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\BitmapInternal.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\BlockDecal.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\BlockHighlight.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\BlockScanState.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\BlockTextureAtlasManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\Camera.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CameraPoint.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChatLine.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChunkCuller.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChunkLoadedDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChunkRenderer.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChunkTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ChunkTesselatorManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientChunk.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientChunkData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientChunkDataPool.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientCoreAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientEventAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientEventManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientMain.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientPlatformAbstract.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientPlatformWindows.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientPlayer.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientPlayerInventoryManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSettings.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystem.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystemDebugCommands.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystemEntities.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystemIntroMenu.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystemRelight.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientSystemStartup.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientThread.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientWorldMap.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ClientWorldPlayerData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ColorPresets.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CornerEnum.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CreativeTabsConfig.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CrossAndSnowlayerTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CrossTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CubeFaceVertices.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CubeTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\CurrentTrackSupplierDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\DashboardWorldConfigObj.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\DashboardWorldConfigPart.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\DrawWorldInteractionUtil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EntityTextureAtlasManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumAuthServerResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumAutoCamAngleMode.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumClientSystemType.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumDepthFunction.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumDownloadSavesStatus.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumGameServerStatus.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumGltfAccessorType.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumGltfAnimationChannelTargetPath.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumGltfAnimationSamplerInterpolation.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumOptimizeRamMode.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumProperty.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\EnumWindowBorder.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ExtendedClientChunk.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\FaceData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\FloatRef.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GameServerConfigResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GameServerLogResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GameServerStatus.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GameWindowNative.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GeneralPacketHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAccessor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAnimation.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAnimationChannel.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAnimationChannelTarget.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAnimationSampler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAsset.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfAttributes.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfBuffer.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfBufferView.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfImage.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfImageSampler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfMaterial.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfMatTexture.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfMesh.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfNode.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfPbrMetallicRoughness.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfPrimitive.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfScene.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfTextureElement.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GltfType.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiComposerManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiComposite.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiCompositeSettings.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogCharacter.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogConfirmRemapping.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogDead.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogEscapeMenu.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogFirstlaunchInfo.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogInventory.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogMacroEditor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogSelboxEditor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogTickProfiler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogToolMode.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiDialogTransformEditor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiElementModCell.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiScreenPublicServers.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiScreenPublicServerView.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\GuiScreenSettings.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HighlightBlocksDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudDebugScreen.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudDialogChat.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudDisconnected.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudDropItem.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudElementBlockAndEntityInfo.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudElementCoordinates.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudElementInteractionHelp.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudEntityNameTags.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudHotbar.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudIngameDiscovery.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudIngameError.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudMouseTools.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudNotMinecraft.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\HudStatbar.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IBlockTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramDefault.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramFogandlight.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramFogspheres.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramNormalshading.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramSkycolor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IFragmentShaderProgramUnderwatereffects.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IGameSettingsHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IGuiCompositeHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IMeshCreator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\INetworkConnection.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\InputAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\InventoryItemRenderer.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IParticlePool.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ItemTextureAtlasManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IVertexShaderProgramColormap.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IVertexShaderProgramFogandlight.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IVertexShaderProgramShadowcoords.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\IVertexShaderProgramVertexwarp.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\JsonAndLiquidTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\JsonAndSnowLayerTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\JsonTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\LiquidTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\LoadedState.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\LoginResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\LogoutResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\Macro.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MacroBase.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MacroManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MainThreadAction.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MiniDictionary.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ModCellEntry.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ModelIcosahedronUtil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ModelSphereUtil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ModId.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ModPacket.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MonitorObject.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MpTokenResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MusicConfig.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\MusicConfigProperties.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\NetworkAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\NetworkChannel.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ObjFaceVertex.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ObjTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OffthreadBaSupplier.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OggDecoder.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OggPage.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnActionComplete.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnAmbientSoundScanCompleteDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnCrashHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnCrashHandlerLeave.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnPlayerPropertyChanged.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OnSrvActionComplete.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\OpenDialogDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ParticleGeneric.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ParticleManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ParticlePoolCubes.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ParticlePoolQuads.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\PickingRayUtil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\PlayerCamera.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\PlayerDeathDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ProcessPacketTask.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\QuadMeshUtilExt.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\RenderAPIGame.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\RenderHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\RenderList.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\RenderOrderReservation.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ResponsePacket.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\RetesselationListener.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ScreenshotLocationMetaData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerConfigPart.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerCtrlResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerHostResolveResp.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerInformation.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerListEntry.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerListPlaystyle.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ServerPacketHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\Shader.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderAPI.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgram.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramAurora.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramAutocamera.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramBase.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramBilateralblur.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramBlit.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramBlockhighlights.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramBlur.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramCelestialobject.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramChunkliquid.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramChunkliquiddepth.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramChunkopaque.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramChunktopsoil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramChunktransparent.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramCloudmap.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramCloudvolumetric.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramColorgrade.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramDebugdepthbuffer.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramDecals.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramEntityanimated.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramFinal.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramFindbright.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramGodrays.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramGui.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramGuigear.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramGuitopsoil.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramHelditem.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramInstanced.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramLines.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramLuma.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramMinimalGui.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramNightsky.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramParticlescube.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramParticlesquad.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramParticlesquad2d.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderPrograms.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramShadowmapentityanimated.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramShadowmapgeneric.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramSky.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramSsao.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramStandard.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramTexture2texture.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramTransparentcompose.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramWireframe.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderProgramWoittest.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShaderRegistry.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShadowBox.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShapeTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ShapeTesselatorManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SoundConfig.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SurfaceLayerTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SvgLoader.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemCalendar.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemChunkVisibilityCalc.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemCinematicCamera.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemClientTickingBlocks.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemCompressChunks.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemHighlightBlocks.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemModHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemMouseInWorldInteractions.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemMusicEngine.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemNetworkProcess.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemPlayerControl.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemPlayerEnvAwarenessTracker.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemPlayerSounds.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderAim.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderDebugWireframes.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderDecals.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderEntities.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderFrameBufferDebug.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderInsideBlock.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderNightSky.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderParticles.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderPlayerAimAcc.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderPlayerEffects.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderRiftTest.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderShadowMap.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderSkyColor.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderSunMoon.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemRenderTerrain.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemScreenshot.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemSelectedBlockOutline.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemSoundEngine.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemUnloadChunks.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\SystemVideoRecorder.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TabConfig.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TargetSet.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TCTCache.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TerrainIlluminator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TerrainMesherHelper.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TesselatedChunk.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TesselatedChunkPart.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TextureAtlas.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TextureAtlasManager.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TextureAtlasNode.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TextureSource.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ThreadMusicInitialise.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TickerMetaData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TickingBlockData.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TileDirectionEnum.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TopsoilTesselator.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TouchEventArgs.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TouchEventHandler.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TrackStarterDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TrackStarterLoadedDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TrackToLoad.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\TransformConfig.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\UBO.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\UdpNetworkChannel.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\UnloadableShape.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\Unproject.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\UpdateLightingDelegate.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\ValidateResponse.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\VAO.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\VintageStorySocket.cs" />
+    <Compile Include="Vintagestory\Client\NoObf\WindowResizedDelegate.cs" />
+    <Compile Include="Vintagestory\Client\Particle2D.cs" />
+    <Compile Include="Vintagestory\Client\ParticlePool2D.cs" />
+    <Compile Include="Vintagestory\Client\ParticleRenderer2D.cs" />
+    <Compile Include="Vintagestory\Client\PlaystyleListEntry.cs" />
+    <Compile Include="Vintagestory\Client\QueueByte.cs" />
+    <Compile Include="Vintagestory\Client\RenderAPIBase.cs" />
+    <Compile Include="Vintagestory\Client\RestartGameException.cs" />
+    <Compile Include="Vintagestory\Client\ReverbEffect.cs" />
+    <Compile Include="Vintagestory\Client\RuntimeStats.cs" />
+    <Compile Include="Vintagestory\Client\SaveGameEntry.cs" />
+    <Compile Include="Vintagestory\Client\ScreenManager.cs" />
+    <Compile Include="Vintagestory\Client\ServerConnectData.cs" />
+    <Compile Include="Vintagestory\Client\SystemClientCommands.cs" />
+    <Compile Include="Vintagestory\Client\SystemHotkeys.cs" />
+    <Compile Include="Vintagestory\Client\TcpNetClient.cs" />
+    <Compile Include="Vintagestory\Client\UdpNetClient.cs" />
+    <Compile Include="Vintagestory\Client\UriHandler.cs" />
+    <Compile Include="Vintagestory\Client\Util\ServerCtrlBackendInterface.cs" />
+    <Compile Include="Vintagestory\Common\APIBase.cs" />
+    <Compile Include="Vintagestory\Common\ArrayConvert.cs" />
+    <Compile Include="Vintagestory\Common\AssemblyResolver.cs" />
+    <Compile Include="Vintagestory\Common\Asset.cs" />
+    <Compile Include="Vintagestory\Common\AssetManager.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorBase.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorBulkMinimalUpdate.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorCaching.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorMapChunkLoading.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorMovable.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorPrefetch.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorReadLockfree.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorRelaxed.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorRelaxedBulkUpdate.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorRevertable.cs" />
+    <Compile Include="Vintagestory\Common\BlockAccessorStrict.cs" />
+    <Compile Include="Vintagestory\Common\BlockBreakTask.cs" />
+    <Compile Include="Vintagestory\Common\BlockChunkDataLayer.cs" />
+    <Compile Include="Vintagestory\Common\BlockList.cs" />
+    <Compile Include="Vintagestory\Common\BlocksCompositeIdEnumerator.cs" />
+    <Compile Include="Vintagestory\Common\BlockTypeNet.cs" />
+    <Compile Include="Vintagestory\Common\BoxedPacket.cs" />
+    <Compile Include="Vintagestory\Common\ChatCommandApi.cs" />
+    <Compile Include="Vintagestory\Common\ChatCommandImpl.cs" />
+    <Compile Include="Vintagestory\Common\ChunkData.cs" />
+    <Compile Include="Vintagestory\Common\ChunkDataLayer.cs" />
+    <Compile Include="Vintagestory\Common\ChunkDataPool.cs" />
+    <Compile Include="Vintagestory\Common\ChunkIlluminator.cs" />
+    <Compile Include="Vintagestory\Common\ClassRegistry.cs" />
+    <Compile Include="Vintagestory\Common\ClassRegistryAPI.cs" />
+    <Compile Include="Vintagestory\Common\CleanInstallCheck.cs" />
+    <Compile Include="Vintagestory\Common\ClientGameCalendar.cs" />
+    <Compile Include="Vintagestory\Common\CollectibleNet.cs" />
+    <Compile Include="Vintagestory\Common\CompletedArgs.cs" />
+    <Compile Include="Vintagestory\Common\CompletionState.cs" />
+    <Compile Include="Vintagestory\Common\Compression.cs" />
+    <Compile Include="Vintagestory\Common\CompressionDeflate.cs" />
+    <Compile Include="Vintagestory\Common\CompressionGzip.cs" />
+    <Compile Include="Vintagestory\Common\CompressionZSTD.cs" />
+    <Compile Include="Vintagestory\Common\ConcurrentIndexedFifoQueue.cs" />
+    <Compile Include="Vintagestory\Common\ConnectionResult.cs" />
+    <Compile Include="Vintagestory\Common\Convert\ZstdNative.cs" />
+    <Compile Include="Vintagestory\Common\CraftingInventoryNetworkUtil.cs" />
+    <Compile Include="Vintagestory\Common\CreativeNetworkUtil.cs" />
+    <Compile Include="Vintagestory\Common\CreativeTab.cs" />
+    <Compile Include="Vintagestory\Common\CreativeTabs.cs" />
+    <Compile Include="Vintagestory\Common\Database\ChunkPos.cs" />
+    <Compile Include="Vintagestory\Common\Database\ChunkPosCompact.cs" />
+    <Compile Include="Vintagestory\Common\Database\DbChunk.cs" />
+    <Compile Include="Vintagestory\Common\Database\IGameDbConnection.cs" />
+    <Compile Include="Vintagestory\Common\Database\SQLiteDbConnectionv1.cs" />
+    <Compile Include="Vintagestory\Common\Database\SQLiteDbConnectionv2.cs" />
+    <Compile Include="Vintagestory\Common\Database\Xyz.cs" />
+    <Compile Include="Vintagestory\Common\DelayedCallback.cs" />
+    <Compile Include="Vintagestory\Common\DelayedCallbackBlock.cs" />
+    <Compile Include="Vintagestory\Common\DummyNetConnection.cs" />
+    <Compile Include="Vintagestory\Common\DummyNetwork.cs" />
+    <Compile Include="Vintagestory\Common\DummyNetworkPacket.cs" />
+    <Compile Include="Vintagestory\Common\EntityTypeNet.cs" />
+    <Compile Include="Vintagestory\Common\EnumHandInteractNw.cs" />
+    <Compile Include="Vintagestory\Common\EnumSendResult.cs" />
+    <Compile Include="Vintagestory\Common\EnumUdpPacket.cs" />
+    <Compile Include="Vintagestory\Common\EventBusListener.cs" />
+    <Compile Include="Vintagestory\Common\EventManager.cs" />
+    <Compile Include="Vintagestory\Common\FastRWLock.cs" />
+    <Compile Include="Vintagestory\Common\FastRWLockWithPriority.cs" />
+    <Compile Include="Vintagestory\Common\FolderOrigin.cs" />
+    <Compile Include="Vintagestory\Common\GameCalendar.cs" />
+    <Compile Include="Vintagestory\Common\GameDatabase.cs" />
+    <Compile Include="Vintagestory\Common\GameMain.cs" />
+    <Compile Include="Vintagestory\Common\GameOrigin.cs" />
+    <Compile Include="Vintagestory\Common\GameTickListener.cs" />
+    <Compile Include="Vintagestory\Common\GameTickListenerBase.cs" />
+    <Compile Include="Vintagestory\Common\GameTickListenerBlock.cs" />
+    <Compile Include="Vintagestory\Common\HandleClientCustomUdpPacket.cs" />
+    <Compile Include="Vintagestory\Common\HandleServerCustomUdpPacket.cs" />
+    <Compile Include="Vintagestory\Common\ICompression.cs" />
+    <Compile Include="Vintagestory\Common\ILongIndex.cs" />
+    <Compile Include="Vintagestory\Common\IndexedFifoQueue.cs" />
+    <Compile Include="Vintagestory\Common\InventoryCharacter.cs" />
+    <Compile Include="Vintagestory\Common\InventoryCraftingGrid.cs" />
+    <Compile Include="Vintagestory\Common\InventoryNetworkUtil.cs" />
+    <Compile Include="Vintagestory\Common\InventoryPlayerBackPacks.cs" />
+    <Compile Include="Vintagestory\Common\InventoryPlayerCreative.cs" />
+    <Compile Include="Vintagestory\Common\InventoryPlayerGround.cs" />
+    <Compile Include="Vintagestory\Common\InventoryPlayerHotbar.cs" />
+    <Compile Include="Vintagestory\Common\InventoryPlayerMouseCursor.cs" />
+    <Compile Include="Vintagestory\Common\IShutDownMonitor.cs" />
+    <Compile Include="Vintagestory\Common\ITabbedInventory.cs" />
+    <Compile Include="Vintagestory\Common\ItemSlotBlackHole.cs" />
+    <Compile Include="Vintagestory\Common\ItemSlotCraftingOutput.cs" />
+    <Compile Include="Vintagestory\Common\ItemSlotGround.cs" />
+    <Compile Include="Vintagestory\Common\ItemSlotJournal.cs" />
+    <Compile Include="Vintagestory\Common\ItemTypeNet.cs" />
+    <Compile Include="Vintagestory\Common\IZStdCompressor.cs" />
+    <Compile Include="Vintagestory\Common\IZStdDecompressor.cs" />
+    <Compile Include="Vintagestory\Common\LightSourcesAtBlock.cs" />
+    <Compile Include="Vintagestory\Common\LoadBalancedTask.cs" />
+    <Compile Include="Vintagestory\Common\LoadBalancer.cs" />
+    <Compile Include="Vintagestory\Common\ModAssemblyLoader.cs" />
+    <Compile Include="Vintagestory\Common\ModCompilationContext.cs" />
+    <Compile Include="Vintagestory\Common\ModContainer.cs" />
+    <Compile Include="Vintagestory\Common\ModError.cs" />
+    <Compile Include="Vintagestory\Common\ModLoader.cs" />
+    <Compile Include="Vintagestory\Common\ModLogger.cs" />
+    <Compile Include="Vintagestory\Common\ModRunPhase.cs" />
+    <Compile Include="Vintagestory\Common\ModStatus.cs" />
+    <Compile Include="Vintagestory\Common\NearbyLightSource.cs" />
+    <Compile Include="Vintagestory\Common\NetClient.cs" />
+    <Compile Include="Vintagestory\Common\NetConnection.cs" />
+    <Compile Include="Vintagestory\Common\NetConstants.cs" />
+    <Compile Include="Vintagestory\Common\NetIncomingMessage.cs" />
+    <Compile Include="Vintagestory\Common\NetServer.cs" />
+    <Compile Include="Vintagestory\Common\NetworkChannelBase.cs" />
+    <Compile Include="Vintagestory\Common\NetworkMessageType.cs" />
+    <Compile Include="Vintagestory\Common\Network\Packets\AnimationPacket.cs" />
+    <Compile Include="Vintagestory\Common\Network\Packets\BulkAnimationPacket.cs" />
+    <Compile Include="Vintagestory\Common\Network\Packets\EntityTagPacket.cs" />
+    <Compile Include="Vintagestory\Common\Network\Packets\MountAnimationPacket.cs" />
+    <Compile Include="Vintagestory\Common\Network\Packets\UdpPacket.cs" />
+    <Compile Include="Vintagestory\Common\NoChunkData.cs" />
+    <Compile Include="Vintagestory\Common\NullLogger.cs" />
+    <Compile Include="Vintagestory\Common\PathOrigin.cs" />
+    <Compile Include="Vintagestory\Common\Ping.cs" />
+    <Compile Include="Vintagestory\Common\PlayerInventoryManager.cs" />
+    <Compile Include="Vintagestory\Common\PlayerInventoryNetworkUtil.cs" />
+    <Compile Include="Vintagestory\Common\PlayerRole.cs" />
+    <Compile Include="Vintagestory\Common\PreloadedTagsStructure.cs" />
+    <Compile Include="Vintagestory\Common\QuadBoundsf.cs" />
+    <Compile Include="Vintagestory\Common\QuadBoundsi.cs" />
+    <Compile Include="Vintagestory\Common\QueueIncomingNetMessage.cs" />
+    <Compile Include="Vintagestory\Common\QueueOutgoingNetMessage.cs" />
+    <Compile Include="Vintagestory\Common\SettingsBase.cs" />
+    <Compile Include="Vintagestory\Common\SettingsBaseNoObf.cs" />
+    <Compile Include="Vintagestory\Common\SettingsChangedWatcher.cs" />
+    <Compile Include="Vintagestory\Common\SettingsClass.cs" />
+    <Compile Include="Vintagestory\Common\StackConverter.cs" />
+    <Compile Include="Vintagestory\Common\StartServerArgs.cs" />
+    <Compile Include="Vintagestory\Common\StreamExtensions.cs" />
+    <Compile Include="Vintagestory\Common\TagRegistry.cs" />
+    <Compile Include="Vintagestory\Common\TCPNetworkConnection.cs" />
+    <Compile Include="Vintagestory\Common\ThemeFolderOrigin.cs" />
+    <Compile Include="Vintagestory\Common\UNetClient.cs" />
+    <Compile Include="Vintagestory\Common\UNetServer.cs" />
+    <Compile Include="Vintagestory\Common\UpdateLightingTask.cs" />
+    <Compile Include="Vintagestory\Common\VSWebClient.cs" />
+    <Compile Include="Vintagestory\Common\WorldChunk.cs" />
+    <Compile Include="Vintagestory\Common\WorldConfig.cs" />
+    <Compile Include="Vintagestory\Common\WorldMap.cs" />
+    <Compile Include="Vintagestory\Common\ZStdCompressorImpl.cs" />
+    <Compile Include="Vintagestory\Common\ZStdDecompressorImpl.cs" />
+    <Compile Include="Vintagestory\Common\ZStdWrapper.cs" />
+    <Compile Include="Vintagestory\DisposableWriter.cs" />
+    <Compile Include="Vintagestory\Logger.cs" />
+    <Compile Include="Vintagestory\ModDb\EnumModDbResponse.cs" />
+    <Compile Include="Vintagestory\ModDb\EnumModInstallState.cs" />
+    <Compile Include="Vintagestory\ModDb\GameVersionEntry.cs" />
+    <Compile Include="Vintagestory\ModDb\GameVersionResponse.cs" />
+    <Compile Include="Vintagestory\ModDb\ModBlock.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbEntry.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbEntryResponse.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbEntrySearchResponse.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbResponse.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbResponseDelegate.cs" />
+    <Compile Include="Vintagestory\ModDb\ModDbUtil.cs" />
+    <Compile Include="Vintagestory\ModDb\ModEntryRelease.cs" />
+    <Compile Include="Vintagestory\ModDb\ModInstallProgressUpdate.cs" />
+    <Compile Include="Vintagestory\ModDb\ModSearchResult.cs" />
+    <Compile Include="Vintagestory\NvidiaGPUFix64.cs" />
+    <Compile Include="Vintagestory\Server\AuthServerComm.cs" />
+    <Compile Include="Vintagestory\Server\BaseServerChatCommandDelegateProvider.cs" />
+    <Compile Include="Vintagestory\Server\BlockAccessorWorldGen.cs" />
+    <Compile Include="Vintagestory\Server\BlockAccessorWorldGenUpdateHeightmap.cs" />
+    <Compile Include="Vintagestory\Server\BoxedPacket_ServerAssets.cs" />
+    <Compile Include="Vintagestory\Server\ChunkColumnLoadRequest.cs" />
+    <Compile Include="Vintagestory\Server\ChunkLookupRequest.cs" />
+    <Compile Include="Vintagestory\Server\ChunkServerThread.cs" />
+    <Compile Include="Vintagestory\Server\ClaimInProgress.cs" />
+    <Compile Include="Vintagestory\Server\ClientLastLogin.cs" />
+    <Compile Include="Vintagestory\Server\ClientPacketHandler.cs" />
+    <Compile Include="Vintagestory\Server\ClientPacketParserOffthread.cs" />
+    <Compile Include="Vintagestory\Server\ClientStatistics.cs" />
+    <Compile Include="Vintagestory\Server\CmdActivate.cs" />
+    <Compile Include="Vintagestory\Server\CmdAnnounce.cs" />
+    <Compile Include="Vintagestory\Server\CmdChunk.cs" />
+    <Compile Include="Vintagestory\Server\CmdDebug.cs" />
+    <Compile Include="Vintagestory\Server\CmdEntity.cs" />
+    <Compile Include="Vintagestory\Server\CmdExecuteAs.cs" />
+    <Compile Include="Vintagestory\Server\CmdGive.cs" />
+    <Compile Include="Vintagestory\Server\CmdGlobalList.cs" />
+    <Compile Include="Vintagestory\Server\CmdHelp.cs" />
+    <Compile Include="Vintagestory\Server\CmdInfo.cs" />
+    <Compile Include="Vintagestory\Server\CmdKickBan.cs" />
+    <Compile Include="Vintagestory\Server\CmdLand.cs" />
+    <Compile Include="Vintagestory\Server\CmdModDBUtil.cs" />
+    <Compile Include="Vintagestory\Server\CmdPlayer.cs" />
+    <Compile Include="Vintagestory\Server\CmdRestart.cs" />
+    <Compile Include="Vintagestory\Server\CmdServerConfig.cs" />
+    <Compile Include="Vintagestory\Server\CmdSetBlock.cs" />
+    <Compile Include="Vintagestory\Server\CmdStats.cs" />
+    <Compile Include="Vintagestory\Server\CmdStop.cs" />
+    <Compile Include="Vintagestory\Server\CmdTime.cs" />
+    <Compile Include="Vintagestory\Server\CmdToggleAllowLan.cs" />
+    <Compile Include="Vintagestory\Server\CmdTp.cs" />
+    <Compile Include="Vintagestory\Server\CmdWorldConfig.cs" />
+    <Compile Include="Vintagestory\Server\CmdWorldConfigCreate.cs" />
+    <Compile Include="Vintagestory\Server\ConnectedClient.cs" />
+    <Compile Include="Vintagestory\Server\CoreServerEventManager.cs" />
+    <Compile Include="Vintagestory\Server\Database\DatabaseUpgrader.cs" />
+    <Compile Include="Vintagestory\Server\Database\DatabaseUpgraderToVersion2.cs" />
+    <Compile Include="Vintagestory\Server\Database\IDatabaseUpgrader.cs" />
+    <Compile Include="Vintagestory\Server\DummyTcpNetServer.cs" />
+    <Compile Include="Vintagestory\Server\EntityDespawn.cs" />
+    <Compile Include="Vintagestory\Server\EntityInRange.cs" />
+    <Compile Include="Vintagestory\Server\EntityRangeComparer.cs" />
+    <Compile Include="Vintagestory\Server\EntitySpawnerResult.cs" />
+    <Compile Include="Vintagestory\Server\EnumChunkType.cs" />
+    <Compile Include="Vintagestory\Server\EnumClientAwarenessEvent.cs" />
+    <Compile Include="Vintagestory\Server\EnumPlayerGroupPrivilege.cs" />
+    <Compile Include="Vintagestory\Server\HandleHandInteractionDelegate.cs" />
+    <Compile Include="Vintagestory\Server\HeartbeatPacket.cs" />
+    <Compile Include="Vintagestory\Server\LegacyServerChatCommand.cs" />
+    <Compile Include="Vintagestory\Server\MagicNum.cs" />
+    <Compile Include="Vintagestory\Server\MapRegionAndPos.cs" />
+    <Compile Include="Vintagestory\Server\ModPacket.cs" />
+    <Compile Include="Vintagestory\Server\NetworkAPI.cs" />
+    <Compile Include="Vintagestory\Server\NetworkChannel.cs" />
+    <Compile Include="Vintagestory\Server\Network\DummyUdpNetServer.cs" />
+    <Compile Include="Vintagestory\Server\Network\OnReceivedMessageDelegate.cs" />
+    <Compile Include="Vintagestory\Server\Network\ServerNetManager.cs" />
+    <Compile Include="Vintagestory\Server\Network\TcpConnectionDelegate.cs" />
+    <Compile Include="Vintagestory\Server\Network\TcpNetConnection.cs" />
+    <Compile Include="Vintagestory\Server\Network\UdpNetServer.cs" />
+    <Compile Include="Vintagestory\Server\PhysicsManager.cs" />
+    <Compile Include="Vintagestory\Server\PlayerDataManager.cs" />
+    <Compile Include="Vintagestory\Server\PlayerEntry.cs" />
+    <Compile Include="Vintagestory\Server\PlayerPacketMonitor.cs" />
+    <Compile Include="Vintagestory\Server\PlayerVerifyResult.cs" />
+    <Compile Include="Vintagestory\Server\PlaystylePacket.cs" />
+    <Compile Include="Vintagestory\Server\QueuedClient.cs" />
+    <Compile Include="Vintagestory\Server\ReceivedClientPacket.cs" />
+    <Compile Include="Vintagestory\Server\ReceivedClientPacketType.cs" />
+    <Compile Include="Vintagestory\Server\RegisterRequestPacket.cs" />
+    <Compile Include="Vintagestory\Server\ResolveResponse.cs" />
+    <Compile Include="Vintagestory\Server\ResolveResponseUid.cs" />
+    <Compile Include="Vintagestory\Server\ResponsePacket.cs" />
+    <Compile Include="Vintagestory\Server\ServerAPI.cs" />
+    <Compile Include="Vintagestory\Server\ServerAPIComponentBase.cs" />
+    <Compile Include="Vintagestory\Server\ServerChunk.cs" />
+    <Compile Include="Vintagestory\Server\ServerChunkWithCoord.cs" />
+    <Compile Include="Vintagestory\Server\ServerCommandMacro.cs" />
+    <Compile Include="Vintagestory\Server\ServerConfig.cs" />
+    <Compile Include="Vintagestory\Server\ServerConsole.cs" />
+    <Compile Include="Vintagestory\Server\ServerConsoleClient.cs" />
+    <Compile Include="Vintagestory\Server\ServerConsolePlayer.cs" />
+    <Compile Include="Vintagestory\Server\ServerCoreAPI.cs" />
+    <Compile Include="Vintagestory\Server\ServerEventAPI.cs" />
+    <Compile Include="Vintagestory\Server\ServerEventManager.cs" />
+    <Compile Include="Vintagestory\Server\ServerLogger.cs" />
+    <Compile Include="Vintagestory\Server\ServerMain.cs" />
+    <Compile Include="Vintagestory\Server\ServerMapChunk.cs" />
+    <Compile Include="Vintagestory\Server\ServerMapChunkStoreRequest.cs" />
+    <Compile Include="Vintagestory\Server\ServerMapChunkWithCoord.cs" />
+    <Compile Include="Vintagestory\Server\ServerMapRegion.cs" />
+    <Compile Include="Vintagestory\Server\ServerPackets.cs" />
+    <Compile Include="Vintagestory\Server\ServerPlayer.cs" />
+    <Compile Include="Vintagestory\Server\ServerPlayerData.cs" />
+    <Compile Include="Vintagestory\Server\ServerPlayerInventoryManager.cs" />
+    <Compile Include="Vintagestory\Server\ServerProgram.cs" />
+    <Compile Include="Vintagestory\Server\ServerProgramArgs.cs" />
+    <Compile Include="Vintagestory\Server\ServerSettings.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystem.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemAsync.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemAutoSaveGame.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemBlockIdRemapper.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemBlockSimulation.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemCalendar.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemClientAwareness.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemCommands.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemCompressChunks.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemEntityCodeRemapper.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemEntitySimulation.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemEntitySpawner.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemHeartbeat.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemInventory.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemItemIdRemapper.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemLoadAndSaveGame.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemLoadConfig.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemMacros.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemModHandler.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemNotifyPing.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemRelight.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemRemapperAssistant.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemSendChunks.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemSupplyChunkCommands.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemSupplyChunks.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemUnloadChunks.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemUpnp.cs" />
+    <Compile Include="Vintagestory\Server\ServerSystemWorldAmbient.cs" />
+    <Compile Include="Vintagestory\Server\ServerThread.cs" />
+    <Compile Include="Vintagestory\Server\ServerWorldMap.cs" />
+    <Compile Include="Vintagestory\Server\ServerWorldPlayerData.cs" />
+    <Compile Include="Vintagestory\Server\ServerySystemPlayerGroups.cs" />
+    <Compile Include="Vintagestory\Server\SpawnArea.cs" />
+    <Compile Include="Vintagestory\Server\SpawnerOffthread.cs" />
+    <Compile Include="Vintagestory\Server\SpawnOppurtunity.cs" />
+    <Compile Include="Vintagestory\Server\SpawnState.cs" />
+    <Compile Include="Vintagestory\Server\StatsCollection.cs" />
+    <Compile Include="Vintagestory\Server\Systems\EntityPosExtensions.cs" />
+    <Compile Include="Vintagestory\Server\Systems\QueuedUDPPacket.cs" />
+    <Compile Include="Vintagestory\Server\Systems\ServerSystemMonitor.cs" />
+    <Compile Include="Vintagestory\Server\Systems\ServerUdpNetwork.cs" />
+    <Compile Include="Vintagestory\Server\Systems\ServerUdpQueue.cs" />
+    <Compile Include="Vintagestory\Server\TcpNetServer.cs" />
+    <Compile Include="Vintagestory\Server\Timer.cs" />
+    <Compile Include="Vintagestory\Server\UdpNetworkChannel.cs" />
+    <Compile Include="Vintagestory\Server\UnregisterPacket.cs" />
+    <Compile Include="Vintagestory\Server\UpnpCompleteDelegate.cs" />
+    <Compile Include="Vintagestory\Server\ValidateResponse.cs" />
+    <Compile Include="Vintagestory\Server\ValidationCompleteDelegate.cs" />
+    <Compile Include="Vintagestory\Server\WorldAPI.cs" />
+    <Compile Include="Vintagestory\Server\WorldGenHandler.cs" />
+    <Compile Include="Vintagestory\Server\WorldgenWorldAccessor.cs" />
+    <Compile Include="Vintagestory\WindowsConsole.cs" />
+    <Compile Include="Wire.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

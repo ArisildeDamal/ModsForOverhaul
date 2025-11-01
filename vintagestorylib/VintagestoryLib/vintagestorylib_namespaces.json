@@ -1,0 +1,3882 @@
+﻿[
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\BitTools",
+        "Classes":  "cs                                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\BoxedArray",
+        "Classes":  "cs                                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\CitoMemoryStream",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\CitoSeekOrigin",
+        "Classes":  "cs                                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\CitoStream",
+        "Classes":  "cs                                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\ClientTask",
+        "Classes":  "cs                                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\ConsoleWindowUtil",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\GameExit",
+        "Classes":  "cs                                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\GuiScreen",
+        "Classes":  "cs                                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\GuiScreenMainRight",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\IPacket",
+        "Classes":  "cs                                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Key",
+        "Classes":  "cs                                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\KeyValue",
+        "Classes":  "cs                                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\manifest_vintagestorylib",
+        "Classes":  "txt                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\NewFrameHandler",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ActivateInventorySlot",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ActivateInventorySlotSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Ambient",
+        "Classes":  "cs                                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_AmbientSerializer",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Behavior",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BehaviorSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlendedOverlayTexture",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlendedOverlayTextureSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockDamage",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockDamageSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockDrop",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockDropSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntities",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntitiesSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntity",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntityMessage",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntityMessageSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntityPacket",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntityPacketSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockEntitySerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockSetModeEnum",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockSoundSet",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockSoundSetSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockType",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BlockTypeSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityAttributes",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityAttributesSerializer",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityDebugAttributes",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityDebugAttributesSerializer",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityPosition",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_BulkEntityPositionSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ChatLine",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ChatLineSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Client",
+        "Classes":  "cs                                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientBlockPlaceOrBreak",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientBlockPlaceOrBreakSerializer",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientHandInteraction",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientHandInteractionSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientIdentification",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientIdentificationSerializer",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientIdEnum",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientLeave",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientLeaveSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientLoaded",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientLoadedSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientPingReply",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientPingReplySerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientPlaying",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientPlayingSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientRequestJoin",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientRequestJoinSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientSerializer",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientServerQuery",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientServerQuerySerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientSpecialKey",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ClientSpecialKeySerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CombustibleProperties",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CombustiblePropertiesSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CompositeShape",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CompositeShapeSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CompositeTexture",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CompositeTextureSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ConnectionPacket",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ConnectionPacketSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CreateItemstack",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CreateItemstackSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CrushingProperties",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CrushingPropertiesSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Cube",
+        "Classes":  "cs                                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CubeSerializer",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CustomPacket",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_CustomPacketSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Entities",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntitiesSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Entity",
+        "Classes":  "cs                                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityAttributes",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityAttributesSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityAttributeUpdate",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityAttributeUpdateSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityBoundingBox",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityBoundingBoxSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityDespawn",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityDespawnSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityInteraction",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityInteractionSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityPacket",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityPacketSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityPosition",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityPositionSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntitySerializer",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntitySpawn",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntitySpawnSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityType",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_EntityTypeSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_FlipItemstacks",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_FlipItemstacksSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GeneratedStructure",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GeneratedStructureSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GotoGroup",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GotoGroupSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GrindingProperties",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_GrindingPropertiesSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_HeldSoundSet",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_HeldSoundSetSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_HighlightBlocks",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_HighlightBlocksSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IngameDiscovery",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IngameDiscoverySerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IngameError",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IngameErrorSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IntMap",
+        "Classes":  "cs                                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IntMapSerializer",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IntString",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_IntStringSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryContents",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryContentsSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryDoubleUpdate",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryDoubleUpdateSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryUpdate",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InventoryUpdateSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InvOpenClose",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_InvOpenCloseSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ItemClassEnum",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ItemStack",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ItemStackSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ItemType",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ItemTypeSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LandClaim",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LandClaims",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LandClaimSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LandClaimsSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LeaveReasonEnum",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LoginTokenAnswer",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LoginTokenAnswerSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LoginTokenQuery",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_LoginTokenQuerySerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MapRegion",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MapRegionSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MatterStateEnum",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ModelTransform",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ModelTransformSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ModId",
+        "Classes":  "cs                                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ModIdSerializer",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MoveItemstack",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MoveItemstackSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MoveKeyChange",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MoveKeyChangeSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_MoveKeyEnum",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NatFloat",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NatFloatSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NetworkChannels",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NetworkChannelsSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NotifySlot",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NotifySlotSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NutritionProperties",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_NutritionPropertiesSerializer",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PartialAttribute",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PartialAttributeSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerData",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerDataSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerDeath",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerDeathSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerGroup",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerGroups",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerGroupSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerGroupsSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerMode",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_PlayerModeSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_QueuePacket",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_QueuePacketSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Recipes",
+        "Classes":  "cs                                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RecipesSerializer",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RemoveBlockLight",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RemoveBlockLightSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Role",
+        "Classes":  "cs                                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Roles",
+        "Classes":  "cs                                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RoleSerializer",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RolesSerializer",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RuntimeSetting",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_RuntimeSettingSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_SelectedHotbarSlot",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_SelectedHotbarSlotSerializer",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Server",
+        "Classes":  "cs                                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerAssets",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerAssetsSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerCalendar",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerCalendarSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerChunk",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerChunks",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerChunkSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerChunksSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerDisconnectPlayer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerDisconnectPlayerSerializer",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerEntityDrawBlock",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerEntityDrawBlockSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerExchangeBlock",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerExchangeBlockSerializer",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerIdentification",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerIdentificationSerializer",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerIdEnum",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelFinalize",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelFinalizeSerializer",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelInitialize",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelInitializeSerializer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelProgress",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerLevelProgressSerializer",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerMapChunk",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerMapChunkSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerPing",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerPingSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerPlayerPing",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerPlayerPingSerializer",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerQueryAnswer",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerQueryAnswerSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerReady",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerReadySerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerRedirect",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerRedirectSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSerializer",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetBlock",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetBlocks",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetBlockSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetBlocksSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetDecors",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSetDecorsSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSound",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ServerSoundSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_SpawnParticles",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_SpawnParticlesSerializer",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_SpecialKeyEnum",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_StopMovement",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_StopMovementSerializer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_StringList",
+        "Classes":  "cs                                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_StringListSerializer",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_Tags",
+        "Classes":  "cs                                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_TagsSerializer",
+        "Classes":  "cs                                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ToolMode",
+        "Classes":  "cs                                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_ToolModeSerializer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_TransitionableProperties",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_TransitionablePropertiesSerializer",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UdpPacket",
+        "Classes":  "cs                                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UdpPacketIdEnum",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UdpPacketSerializer",
+        "Classes":  "cs                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UnloadMapRegion",
+        "Classes":  "cs                                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UnloadMapRegionSerializer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UnloadServerChunk",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_UnloadServerChunkSerializer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_VariantPart",
+        "Classes":  "cs                                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_VariantPartSerializer",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_WorldMetaData",
+        "Classes":  "cs                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Packet_WorldMetaDataSerializer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\ProtocolParser",
+        "Classes":  "cs                                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\ProtoPlatform",
+        "Classes":  "cs                                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\SaveGame",
+        "Classes":  "cs                                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\VectorTool",
+        "Classes":  "cs                                            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\VintagestoryLib",
+        "Classes":  "csproj                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Wire",
+        "Classes":  "cs                                                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Properties\\AssemblyInfo",
+        "Classes":  "cs                               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Server\\Systems\\ServerSystemBlockLogger",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ClientLogger",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\DisposableWriter",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Logger",
+        "Classes":  "cs                                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\NvidiaGPUFix64",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\WindowsConsole",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\API\\Common\\EventHelper",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\AudioOpenAl",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\BlockAndPos",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ClientMapChunk",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ClientMapRegion",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ClientPackets",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ClientProgram",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ClientProgramArgs",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\DummyTcpNetClient",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ElementWindowBounds",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\EnumDownloadModType",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GameBuild",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GameReleaseVersion",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GraphicsPreset",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiCompositeMainMenuLeft",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenConfirmAction",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenConnectingToServer",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenCredits",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenDisconnected",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenDownloadMods",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenExitingServer",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenGetUpdate",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenLoadingGame",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenLogin",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenMessage",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenMods",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenMultiplayer",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenMultiplayerModify",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenMultiplayerNewServer",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenOnlineMods",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenRunningGame",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenServerDashboard",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenServerResetWorld",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenSingleplayer",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenSingleplayerModify",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenSingleplayerNewWorld",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\GuiScreenWorldCustomize",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\HotkeyCapturer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\HotkeyManager",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\IGuiController",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\KeyEventHandler",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\KeyModifiers",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\LoadedSoundNative",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\LoadSoundsThread",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\LogEntry",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\MouseEventHandler",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Particle2D",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ParticlePool2D",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ParticleRenderer2D",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\PlaystyleListEntry",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\QueueByte",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\RenderAPIBase",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\RestartGameException",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ReverbEffect",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\RuntimeStats",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\SaveGameEntry",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ScreenManager",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\ServerConnectData",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\SystemClientCommands",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\SystemHotkeys",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\TcpNetClient",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\UdpNetClient",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\UriHandler",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Gui\\MainMenuAPI",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Gui\\MainMenuEventApi",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Gui\\MainMenuGuiAPI",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Gui\\MainMenuInputAPI",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Gui\\MainMenuRenderAPI",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\MaxObf\\SessionManager",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Network\\DummyUdpNetClient",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AmbientManager",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AmbientSound",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AtlasRenderTask",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AudioData",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AudioMetaData",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\AudioSampleCi",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\BitmapInternal",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\BlockDecal",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\BlockHighlight",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\BlockScanState",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\BlockTextureAtlasManager",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\Camera",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CameraPoint",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChatLine",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChunkCuller",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChunkLoadedDelegate",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChunkRenderer",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChunkTesselator",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ChunkTesselatorManager",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientChunk",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientChunkData",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientChunkDataPool",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientCoreAPI",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientEventAPI",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientEventManager",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientMain",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientPlatformAbstract",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientPlatformWindows",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientPlayer",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientPlayerInventoryManager",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSettings",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystem",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystemDebugCommands",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystemEntities",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystemIntroMenu",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystemRelight",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientSystemStartup",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientThread",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientWorldMap",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ClientWorldPlayerData",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ColorPresets",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CornerEnum",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CreativeTabsConfig",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CrossAndSnowlayerTesselator",
+        "Classes":  "cs "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CrossTesselator",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CubeFaceVertices",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CubeTesselator",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\CurrentTrackSupplierDelegate",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\DashboardWorldConfigObj",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\DashboardWorldConfigPart",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\DrawWorldInteractionUtil",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EntityTextureAtlasManager",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumAuthServerResponse",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumAutoCamAngleMode",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumClientSystemType",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumDepthFunction",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumDownloadSavesStatus",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumGameServerStatus",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumGltfAccessorType",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumOptimizeRamMode",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumProperty",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\EnumWindowBorder",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ExtendedClientChunk",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\FaceData",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\FloatRef",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GameServerConfigResponse",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GameServerLogResponse",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GameServerStatus",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GameWindowNative",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GeneralPacketHandler",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAccessor",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAnimation",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAnimationChannel",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAnimationChannelTarget",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAnimationSampler",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAsset",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfAttributes",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfBuffer",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfBufferView",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfImage",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfImageSampler",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfMaterial",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfMatTexture",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfMesh",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfNode",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfPbrMetallicRoughness",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfPrimitive",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfScene",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfTesselator",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfTextureElement",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GltfType",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiAPI",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiComposerManager",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiComposite",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiCompositeSettings",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogCharacter",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogConfirmRemapping",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogDead",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogEscapeMenu",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogFirstlaunchInfo",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogInventory",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogMacroEditor",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogSelboxEditor",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogTickProfiler",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogToolMode",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiDialogTransformEditor",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiElementModCell",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiManager",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiScreenPublicServers",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiScreenPublicServerView",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\GuiScreenSettings",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HighlightBlocksDelegate",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudDebugScreen",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudDialogChat",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudDisconnected",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudDropItem",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudElementBlockAndEntityInfo",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudElementCoordinates",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudElementInteractionHelp",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudEntityNameTags",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudHotbar",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudIngameDiscovery",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudIngameError",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudMouseTools",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudNotMinecraft",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\HudStatbar",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IBlockTesselator",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IGameSettingsHandler",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IGuiCompositeHandler",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IMeshCreator",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\INetworkConnection",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\InputAPI",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\InventoryItemRenderer",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IParticlePool",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ItemTextureAtlasManager",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\IVertexShaderProgramColormap",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\JsonAndLiquidTesselator",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\JsonAndSnowLayerTesselator",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\JsonTesselator",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\LiquidTesselator",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\LoadedState",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\LoginResponse",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\LogoutResponse",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\Macro",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MacroBase",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MacroManager",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MainThreadAction",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MiniDictionary",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ModCellEntry",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ModelIcosahedronUtil",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ModelSphereUtil",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ModId",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ModPacket",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MonitorObject",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MpTokenResponse",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MusicConfig",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\MusicConfigProperties",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\NetworkAPI",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\NetworkChannel",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ObjFaceVertex",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ObjTesselator",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OffthreadBaSupplier",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OggDecoder",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OggPage",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OnActionComplete",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OnCrashHandler",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OnCrashHandlerLeave",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OnPlayerPropertyChanged",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OnSrvActionComplete",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\OpenDialogDelegate",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ParticleGeneric",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ParticleManager",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ParticlePoolCubes",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ParticlePoolQuads",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\PickingRayUtil",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\PlayerCamera",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\PlayerDeathDelegate",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ProcessPacketTask",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\QuadMeshUtilExt",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\RenderAPIGame",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\RenderHandler",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\RenderList",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\RenderOrderReservation",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ResponsePacket",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\RetesselationListener",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ScreenshotLocationMetaData",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerConfigPart",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerCtrlResponse",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerHostResolveResp",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerInformation",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerListEntry",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerListPlaystyle",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ServerPacketHandler",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\Shader",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderAPI",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgram",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramAurora",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramAutocamera",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramBase",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramBilateralblur",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramBlit",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramBlockhighlights",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramBlur",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramCelestialobject",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramChunkliquid",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramChunkopaque",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramChunktopsoil",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramCloudmap",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramCloudvolumetric",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramColorgrade",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramDecals",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramEntityanimated",
+        "Classes":  "cs "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramFinal",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramFindbright",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramGodrays",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramGui",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramGuigear",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramGuitopsoil",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramHelditem",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramInstanced",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramLines",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramLuma",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramMinimalGui",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramNightsky",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramParticlescube",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramParticlesquad",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramParticlesquad2d",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderPrograms",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramSky",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramSsao",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramStandard",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramTexture2texture",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramWireframe",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderProgramWoittest",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShaderRegistry",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShadowBox",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShapeTesselator",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ShapeTesselatorManager",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SoundConfig",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SurfaceLayerTesselator",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SvgLoader",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemCalendar",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemChunkVisibilityCalc",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemCinematicCamera",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemClientTickingBlocks",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemCompressChunks",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemHighlightBlocks",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemModHandler",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemMusicEngine",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemNetworkProcess",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemPlayerControl",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemPlayerSounds",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderAim",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderDebugWireframes",
+        "Classes":  "cs "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderDecals",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderEntities",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderFrameBufferDebug",
+        "Classes":  "cs"
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderInsideBlock",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderNightSky",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderParticles",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderPlayerAimAcc",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderPlayerEffects",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderRiftTest",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderShadowMap",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderSkyColor",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderSunMoon",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemRenderTerrain",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemScreenshot",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemSelectedBlockOutline",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemSoundEngine",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemUnloadChunks",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\SystemVideoRecorder",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TabConfig",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TargetSet",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TCTCache",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TerrainIlluminator",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TerrainMesherHelper",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TesselatedChunk",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TesselatedChunkPart",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TextureAtlas",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TextureAtlasManager",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TextureAtlasNode",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TextureSource",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ThreadMusicInitialise",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TickerMetaData",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TickingBlockData",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TileDirectionEnum",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TopsoilTesselator",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TouchEventArgs",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TouchEventHandler",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TrackStarterDelegate",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TrackStarterLoadedDelegate",
+        "Classes":  "cs  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TrackToLoad",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\TransformConfig",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\UBO",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\UdpNetworkChannel",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\UnloadableShape",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\Unproject",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\UpdateLightingDelegate",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\ValidateResponse",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\VAO",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\VintageStorySocket",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\NoObf\\WindowResizedDelegate",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Client\\Util\\ServerCtrlBackendInterface",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ClientNative\\CrashReporter",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ClientNative\\Screenshot",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\APIBase",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ArrayConvert",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\AssemblyResolver",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Asset",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\AssetManager",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorBase",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorBulkMinimalUpdate",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorCaching",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorMapChunkLoading",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorMovable",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorPrefetch",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorReadLockfree",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorRelaxed",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorRelaxedBulkUpdate",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorRevertable",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockAccessorStrict",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockBreakTask",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockChunkDataLayer",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockList",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlocksCompositeIdEnumerator",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BlockTypeNet",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\BoxedPacket",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChatCommandApi",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChatCommandImpl",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChunkData",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChunkDataLayer",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChunkDataPool",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ChunkIlluminator",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ClassRegistry",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ClassRegistryAPI",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CleanInstallCheck",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ClientGameCalendar",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CollectibleNet",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CompletedArgs",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CompletionState",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Compression",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CompressionDeflate",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CompressionGzip",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CompressionZSTD",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ConcurrentIndexedFifoQueue",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ConnectionResult",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CraftingInventoryNetworkUtil",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CreativeNetworkUtil",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CreativeTab",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\CreativeTabs",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\DelayedCallback",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\DelayedCallbackBlock",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\DummyNetConnection",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\DummyNetwork",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\DummyNetworkPacket",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EntityTypeNet",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EnumHandInteractNw",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EnumSendResult",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EnumUdpPacket",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EventBusListener",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\EventManager",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\FastRWLock",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\FastRWLockWithPriority",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\FolderOrigin",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameCalendar",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameDatabase",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameMain",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameOrigin",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameTickListener",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameTickListenerBase",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\GameTickListenerBlock",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\HandleClientCustomUdpPacket",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\HandleServerCustomUdpPacket",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ICompression",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ILongIndex",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\IndexedFifoQueue",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryCharacter",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryCraftingGrid",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryNetworkUtil",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryPlayerBackPacks",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryPlayerCreative",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryPlayerGround",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryPlayerHotbar",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\InventoryPlayerMouseCursor",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\IShutDownMonitor",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ITabbedInventory",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ItemSlotBlackHole",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ItemSlotCraftingOutput",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ItemSlotGround",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ItemSlotJournal",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ItemTypeNet",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\IZStdCompressor",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\IZStdDecompressor",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\LightSourcesAtBlock",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\LoadBalancedTask",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\LoadBalancer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModAssemblyLoader",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModCompilationContext",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModContainer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModError",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModLoader",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModLogger",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModRunPhase",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ModStatus",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NearbyLightSource",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetClient",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetConnection",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetConstants",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetIncomingMessage",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetServer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetworkChannelBase",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NetworkMessageType",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NoChunkData",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\NullLogger",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\PathOrigin",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Ping",
+        "Classes":  "cs                              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\PlayerInventoryManager",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\PlayerInventoryNetworkUtil",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\PlayerRole",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\PreloadedTagsStructure",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\QuadBoundsf",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\QuadBoundsi",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\QueueIncomingNetMessage",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\QueueOutgoingNetMessage",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\SettingsBase",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\SettingsBaseNoObf",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\SettingsChangedWatcher",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\SettingsClass",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\StackConverter",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\StartServerArgs",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\StreamExtensions",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\TagRegistry",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\TCPNetworkConnection",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ThemeFolderOrigin",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\UNetClient",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\UNetServer",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\UpdateLightingTask",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\VSWebClient",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\WorldChunk",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\WorldConfig",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\WorldMap",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ZStdCompressorImpl",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ZStdDecompressorImpl",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\ZStdWrapper",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Convert\\ZstdNative",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\ChunkPos",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\ChunkPosCompact",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\DbChunk",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\IGameDbConnection",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\SQLiteDbConnectionv1",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\SQLiteDbConnectionv2",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Database\\Xyz",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Network\\Packets\\AnimationPacket",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Network\\Packets\\EntityTagPacket",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Common\\Network\\Packets\\UdpPacket",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\EnumModDbResponse",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\EnumModInstallState",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\GameVersionEntry",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\GameVersionResponse",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModBlock",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbEntry",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbEntryResponse",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbEntrySearchResponse",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbResponse",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbResponseDelegate",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModDbUtil",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModEntryRelease",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModInstallProgressUpdate",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\ModDb\\ModSearchResult",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\AuthServerComm",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\BlockAccessorWorldGen",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\BoxedPacket_ServerAssets",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ChunkColumnLoadRequest",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ChunkLookupRequest",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ChunkServerThread",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ClaimInProgress",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ClientLastLogin",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ClientPacketHandler",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ClientPacketParserOffthread",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ClientStatistics",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdActivate",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdAnnounce",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdChunk",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdDebug",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdEntity",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdExecuteAs",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdGive",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdGlobalList",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdHelp",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdInfo",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdKickBan",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdLand",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdModDBUtil",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdPlayer",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdRestart",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdServerConfig",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdSetBlock",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdStats",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdStop",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdTime",
+        "Classes":  "cs                           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdToggleAllowLan",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdTp",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdWorldConfig",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CmdWorldConfigCreate",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ConnectedClient",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\CoreServerEventManager",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\DummyTcpNetServer",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EntityDespawn",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EntityInRange",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EntityRangeComparer",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EntitySpawnerResult",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EnumChunkType",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EnumClientAwarenessEvent",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\EnumPlayerGroupPrivilege",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\HandleHandInteractionDelegate",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\HeartbeatPacket",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\LegacyServerChatCommand",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\MagicNum",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\MapRegionAndPos",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ModPacket",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\NetworkAPI",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\NetworkChannel",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PhysicsManager",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PlayerDataManager",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PlayerEntry",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PlayerPacketMonitor",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PlayerVerifyResult",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\PlaystylePacket",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\QueuedClient",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ReceivedClientPacket",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ReceivedClientPacketType",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\RegisterRequestPacket",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ResolveResponse",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ResolveResponseUid",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ResponsePacket",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerAPI",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerAPIComponentBase",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerChunk",
+        "Classes":  "cs                       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerChunkWithCoord",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerCommandMacro",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerConfig",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerConsole",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerConsoleClient",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerConsolePlayer",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerCoreAPI",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerEventAPI",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerEventManager",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerLogger",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerMain",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerMapChunk",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerMapChunkStoreRequest",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerMapChunkWithCoord",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerMapRegion",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerPackets",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerPlayer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerPlayerData",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerPlayerInventoryManager",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerProgram",
+        "Classes":  "cs                     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerProgramArgs",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSettings",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystem",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemAsync",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemAutoSaveGame",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemBlockIdRemapper",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemBlockSimulation",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemCalendar",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemClientAwareness",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemCommands",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemCompressChunks",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemEntityCodeRemapper",
+        "Classes":  "cs    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemEntitySimulation",
+        "Classes":  "cs      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemEntitySpawner",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemHeartbeat",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemInventory",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemItemIdRemapper",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemLoadAndSaveGame",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemLoadConfig",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemMacros",
+        "Classes":  "cs                "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemModHandler",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemNotifyPing",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemRelight",
+        "Classes":  "cs               "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemRemapperAssistant",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemSendChunks",
+        "Classes":  "cs            "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemSupplyChunkCommands",
+        "Classes":  "cs   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemSupplyChunks",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemUnloadChunks",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemUpnp",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerSystemWorldAmbient",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerThread",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerWorldMap",
+        "Classes":  "cs                    "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerWorldPlayerData",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ServerySystemPlayerGroups",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\SpawnArea",
+        "Classes":  "cs                         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\SpawnerOffthread",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\SpawnOppurtunity",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\SpawnState",
+        "Classes":  "cs                        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\StatsCollection",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\TcpNetServer",
+        "Classes":  "cs                      "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Timer",
+        "Classes":  "cs                             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\UdpNetworkChannel",
+        "Classes":  "cs                 "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\UnregisterPacket",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\UpnpCompleteDelegate",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ValidateResponse",
+        "Classes":  "cs                  "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\ValidationCompleteDelegate",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\WorldAPI",
+        "Classes":  "cs                          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\WorldGenHandler",
+        "Classes":  "cs                   "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\WorldgenWorldAccessor",
+        "Classes":  "cs             "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Database\\DatabaseUpgrader",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Database\\IDatabaseUpgrader",
+        "Classes":  "cs        "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\DummyUdpNetServer",
+        "Classes":  "cs         "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\OnReceivedMessageDelegate",
+        "Classes":  "cs "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\ServerNetManager",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\TcpConnectionDelegate",
+        "Classes":  "cs     "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\TcpNetConnection",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Network\\UdpNetServer",
+        "Classes":  "cs              "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Systems\\EntityPosExtensions",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Systems\\QueuedUDPPacket",
+        "Classes":  "cs           "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Systems\\ServerSystemMonitor",
+        "Classes":  "cs       "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Systems\\ServerUdpNetwork",
+        "Classes":  "cs          "
+    },
+    {
+        "Namespace":  "C:\\Users\\arisi\\AppData\\Roaming\\Vintagestory\\v\\VintagestoryLib\\Vintagestory\\Server\\Systems\\ServerUdpQueue",
+        "Classes":  "cs            "
+    }
+]
